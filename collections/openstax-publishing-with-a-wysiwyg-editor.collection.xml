@@ -1,0 +1,16 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11975</md:content-id>
+    <md:title>OpenStax Publishing with a WYSIWYG Editor</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>b1b7b8cb-83f3-4ece-a04c-0957720ff3d3</md:uuid>
+<md:slug>openstax-publishing-with-a-wysiwyg-editor</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m60376"/>
+    <col:module document="m60392"/>
+    <col:module document="m60414"/>
+    <col:module document="m60462"/>
+  </col:content>
+</col:collection>

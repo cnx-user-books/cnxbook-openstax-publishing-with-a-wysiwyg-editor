@@ -1,0 +1,4419 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Step-by-Step Guide to OpenStax Publishing</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60414</md:content-id>
+  <md:title>Step-by-Step Guide to OpenStax Publishing</md:title>
+  <md:abstract>The purpose of this Page is to guide you through the uploading and publishing process, step-by-step, using screen shots to illustrate the steps involved.</md:abstract>
+  <md:uuid>e5f17678-17af-4f89-b639-fd6325d43b03</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+
+
+<para id="p1000">
+Revised: Thu Mar 24 14:56:00 CDT 2016
+
+</para>
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1001">
+This page is part of a Book titled 
+
+
+<link id="a1000" url="http://cnx.org/contents/sbe4y4Pz:jwJWiTyV">
+
+OpenStax Publishing with a WYSIWYG Editor.
+
+</link>
+
+
+</para>
+
+
+
+
+
+
+</note>
+
+
+
+
+
+
+</quote>
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+<emphasis id="Table_of_contents" effect="bold">
+
+Table of contents
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+<item id="li1000">
+<link id="a1001" target-id="Table_of_contents">
+
+Table of contents
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1001">
+<link id="a1002" target-id="Preface">
+
+Preface
+
+</link>
+
+
+
+
+<list id="ul1001" list-type="bulleted">
+<item id="li1002">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+
+
+<list id="ul1002" list-type="bulleted">
+<item id="li1003">
+<link id="a1004" target-id="Figures">
+
+Figures
+
+</link>
+
+
+
+
+</item>
+
+
+</list>
+
+
+</item>
+
+
+</list>
+
+
+</item>
+
+
+<item id="li1004">
+<link id="a1005" target-id="Background_information">
+
+Background information
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1005">
+<link id="a1006" target-id="Discussion_and_sample_code">
+
+Discussion
+
+</link>
+
+
+
+
+<list id="ul1003" list-type="bulleted">
+<item id="li1006">
+<link id="a1007" target-id="Create_an_account">
+
+Create an account
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1007">
+<link id="a1008" target-id="Log_into_your_account">
+
+Log into your account
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1008">
+<link id="a1009" target-id="Create_a_new_module">
+
+Create a new module
+
+</link>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+<item id="li1009">
+<link id="a1010" target-id="Accept_the_license">
+
+Accept the license
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1010">
+<link id="a1011" target-id="A_word_about_work_spaces">
+
+A word about work spaces
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1011">
+<link id="a1012" target-id="Enter_the_metadata">
+
+Enter the metadata
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1012">
+<link id="a1013" target-id="Import_CNXML_file">
+
+Import CNXML file
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1013">
+<link id="a1014" target-id="Import_zip_file">
+
+Import zip file
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1014">
+<link id="a1015" target-id="Preview_your_module">
+
+Preview your module
+
+</link>
+
+
+
+
+</item>
+
+
+</list>
+
+
+</item>
+
+
+<item id="li1015">
+<link id="a1016" target-id="Publish_your_module">
+
+Publish your module
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1016">
+<link id="a1017" target-id="Create_a_collection">
+
+Create a collection
+
+</link>
+
+
+
+
+</item>
+
+
+<item id="li1017">
+<link id="a1018" target-id="Checkout_a_module_or_a_collection">
+
+Checkout a module or a 
+collection
+
+</link>
+
+
+
+
+</item>
+
+
+</list>
+
+
+</item>
+
+
+<item id="li1018">
+<link id="a1019" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+
+
+</item>
+
+
+</list>
+
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+
+<para id="p1002">
+The purpose of this 
+
+<link id="a1020" url="http://cnx.org/contents/sbe4y4Pz:jwJWiTyV">
+
+Book
+
+</link>
+
+ 
+is to provide the tools needed for persons who have never published on OpenStax 
+to create, upload, and publish their content on OpenStax. Previous pages have showed you how use a 
+WYSIWYG editor to create content and then how to translate that content into 
+CNXML for uploading and publishing on OpenStax.
+
+</para>
+
+
+
+
+
+<para id="p1003">
+The purpose of this 
+
+<emphasis id="strong1000" effect="bold">
+Page
+
+</emphasis>
+ is to guide you through the uploading and publishing 
+process, step-by-step, using screen shots to illustrate the steps involved. 
+Instructions provided on this 
+
+<emphasis id="strong1001" effect="bold">
+Page
+
+</emphasis>
+ assume that you have already created your 
+CNXML file, possibly but not necessarily using one of the following two approaches:
+
+</para>
+
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1019">
+<link id="a1021" url="http://cnx.org/contents/sbe4y4Pz:jwJWiTyV">
+
+Wysiwyg0100 Getting Started
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1020">
+<link id="a1022" url="http://cnx.org/contents/sbe4y4Pz:TnoKZol5">
+
+Hosting PDF on OpenStax
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+	
+	
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1004">
+I recommend that you open another copy of this 
+
+<emphasis id="strong1002" effect="bold">
+module
+
+</emphasis>
+ in a separate 
+browser window and use the following links to easily find and view the Figures 
+	while you are reading about them. 
+
+</para>
+
+
+
+	
+
+<section id="h31000">
+<title>
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+	
+
+
+<list id="ul1006" list-type="bulleted">
+
+
+
+<item id="li1021">
+<link id="a1023" target-id="Figure_1">
+
+Figure 1.
+
+</link>
+
+
+ Starting page for authors on OpenStax.
+
+
+</item>
+
+
+
+
+<item id="li1022">
+<link id="a1024" target-id="Figure_2">
+
+Figure 2.
+
+</link>
+
+
+ Request a OpenStax-CNX Account.
+
+
+</item>
+
+
+
+
+<item id="li1023">
+<link id="a1025" target-id="Figure_3">
+
+Figure 3.
+
+</link>
+
+
+ The login page.
+
+
+</item>
+
+
+
+
+<item id="li1024">
+<link id="a1026" target-id="Figure_4">
+
+Figure 4.
+
+</link>
+
+
+ The login landing page.
+
+
+</item>
+
+
+
+
+<item id="li1025">
+<link id="a1027" target-id="Figure_5">
+
+Figure 5.
+
+</link>
+
+
+ New module: License Agreement.
+
+
+</item>
+
+
+
+
+<item id="li1026">
+<link id="a1028" target-id="Figure_6">
+
+Figure 6.
+
+</link>
+
+
+ New module: Metadata.
+
+
+</item>
+
+
+
+
+<item id="li1027">
+<link id="a1029" target-id="Figure_7">
+
+Figure 7.
+
+</link>
+
+
+ Import CNXML and zip files.
+
+
+</item>
+
+
+
+
+<item id="li1028">
+<link id="a1030" target-id="Figure_8">
+
+Figure 8.
+
+</link>
+
+
+ Page with a Browse... button.
+
+
+</item>
+
+
+
+
+<item id="li1029">
+<link id="a1031" target-id="Figure_9">
+
+Figure 9.
+
+</link>
+
+
+ Typical Browse dialog box.
+
+
+</item>
+
+
+
+
+<item id="li1030">
+<link id="a1032" target-id="Figure_10">
+
+Figure 10.
+
+</link>
+
+
+ Import complete.
+
+
+</item>
+
+
+
+
+<item id="li1031">
+<link id="a1033" target-id="Figure_11">
+
+Figure 11.
+
+</link>
+
+
+ Publish module.
+
+
+</item>
+
+
+
+
+<item id="li1032">
+<link id="a1034" target-id="Figure_12">
+
+Figure 12.
+
+</link>
+
+
+ Item published.
+
+
+</item>
+
+
+
+
+<item id="li1033">
+<link id="a1035" target-id="Figure_13">
+
+Figure 13.
+
+</link>
+
+
+ Legacy view of a module.
+
+
+</item>
+
+
+
+
+<item id="li1034">
+<link id="a1036" target-id="Figure_14">
+
+Figure 14.
+
+</link>
+
+
+ OpenStax view of a module.
+
+
+</item>
+
+
+
+
+<item id="li1035">
+<link id="a1037" target-id="Figure_15">
+
+Figure 15.
+
+</link>
+
+
+ New collection: Metadata.
+
+
+</item>
+
+
+
+
+<item id="li1036">
+<link id="a1038" target-id="Figure_16">
+
+Figure 16.
+
+</link>
+
+
+ Add modules to a collection.
+
+
+</item>
+
+
+
+
+<item id="li1037">
+<link id="a1039" target-id="Figure_17">
+
+Figure 17.
+
+</link>
+
+
+ Result of adding a module to a collection.
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Background_information" effect="bold">
+
+Background information
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1005">
+At one point in time, the 
+
+<emphasis id="strong1003" effect="bold">
+OpenStax
+
+</emphasis>
+ website was known as 
+
+<emphasis id="strong1004" effect="bold">
+Connexions
+
+</emphasis>
+. In those days, individual CNXML 
+documents 
+	were known as 
+
+<emphasis id="strong1005" effect="bold">
+modules
+
+</emphasis>
+ and a collection or grouping of such documents was 
+	known as a 
+
+<emphasis id="strong1006" effect="bold">
+collection
+
+</emphasis>
+. With the advent of the 
+
+<emphasis id="strong1007" effect="bold">
+
+	OpenStax
+
+</emphasis>
+ name, individual CNXML documents became known as 
+
+<emphasis id="strong1008" effect="bold">
+Pages
+
+</emphasis>
+, 
+	and collections of such documents became known as 
+
+<emphasis id="strong1009" effect="bold">
+Books
+
+</emphasis>
+. 
+	However, much 
+of the old terminology still appears on the website, particularly in those areas 
+of the site associated with creating and publishing content. 
+
+</para>
+
+
+
+
+
+<para id="p1006">
+Therefore, a
+
+
+<emphasis id="strong1010" effect="bold">
+module
+
+</emphasis>
+ is the same as a 
+
+<emphasis id="strong1011" effect="bold">
+Page
+
+</emphasis>
+ and a 
+
+<emphasis id="strong1012" effect="bold">
+collection
+
+</emphasis>
+ is the same as a 
+
+
+<emphasis id="strong1013" effect="bold">
+Book
+
+</emphasis>
+. Those terms will be used somewhat interchangeably on this
+
+
+<emphasis id="strong1014" effect="bold">
+Page
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+
+<section id="h21001">
+<title>
+<emphasis id="Create_an_account" effect="bold">
+
+Create an account
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+The first step in publishing on OpenStax is to create a free account if you 
+don't already have one. 
+
+<emphasis id="em1000" effect="italics">
+(An account is not required to view content on 
+OpenStax, but an account is required to upload and publish content.)
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+
+<para id="p1008">
+If you already have an account, skip ahead to
+
+
+<link id="a1040" target-id="Log_into_your_account">
+
+Log into your account
+
+</link>
+
+. Otherwise, the 
+best place to start when creating an account is 
+
+<link id="a1041" url="https://legacy.cnx.org/">
+
+here
+
+</link>
+
+. When you 
+select that link, you should see something similar to the page shown in 
+
+<link id="a1042" target-id="Figure_1">
+
+ Figure 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1000" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1000">
+
+
+
+<row id="tr1000">
+
+
+
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1.
+
+</emphasis>
+
+ Starting page for authors on OpenStax.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+
+
+<tbody id="tbody1000">
+
+
+
+<row id="tr1001">
+
+
+
+<entry id="td1000">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/ostxa.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1009">
+Take time to look around when you get there. Then select the link titled
+
+
+<link id="a1043" url="https://legacy.cnx.org/new_account">
+
+Get an account
+
+</link>
+
+ in the 
+upper-right of the page. That should take you to a page that looks something 
+like 
+
+<link id="a1044" target-id="Figure_2">
+
+ Figure 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1001" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1001">
+
+
+
+<row id="tr1002">
+
+
+
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2.
+
+</emphasis>
+
+ Request a OpenStax-CNX Account.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+
+
+<tbody id="tbody1001">
+
+
+
+<row id="tr1003">
+
+
+
+<entry id="td1001">
+
+
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/ostxd.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1010">
+Go ahead, follow the instructions and get your account. Once you have your 
+account, log out and log back in to make certain that your password works, etc.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Log_into_your_account" effect="bold">
+
+Log into your account
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+You will find the login page at 
+
+<link id="a1045" url="https://legacy.cnx.org/login_form">
+
+https://legacy.cnx.org/login_form
+
+</link>
+
+. It should look something like the page 
+shown in 
+
+<link id="a1046" target-id="Figure_3">
+
+ Figure 3
+
+</link>
+
+ although it won't have some of the material that you see there 
+the first time you log in.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1002" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1002">
+
+
+
+<row id="tr1004">
+
+
+
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3.
+
+</emphasis>
+
+ The login page.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1002">
+
+
+
+<row id="tr1005">
+
+
+
+<entry id="td1002">
+
+
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/ostxg.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1012">
+Go ahead and log in. When you do you should land on a page that looks 
+something like 
+
+<link id="a1047" target-id="Figure_4">
+
+ Figure 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1003" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1003">
+
+
+
+<row id="tr1006">
+
+
+
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4.
+
+</emphasis>
+
+ The login landing page.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1003">
+
+
+
+<row id="tr1007">
+
+
+
+<entry id="td1003">
+
+
+
+<media id="media1003" alt="Missing image" display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/ostxk.jpg" width="1042" height="1041"/>
+</media>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Create_a_new_module" effect="bold">
+
+Create a new module
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1013">
+Select the link to
+
+
+<emphasis id="strong1015" effect="bold">
+Create 
+a new module
+
+</emphasis>
+ that appears under the heading titled 
+
+<emphasis id="strong1016" effect="bold">
+Create and edit 
+content
+
+</emphasis>
+. When you select that link, you should land on a page that 
+looks something like that shown in 
+
+<link id="a1048" target-id="Figure_5">
+
+ Figure 5
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1004" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1004">
+
+
+
+<row id="tr1008">
+
+
+
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_5" effect="bold">
+
+Figure 5.
+
+</emphasis>
+
+ New module: License Agreement.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1004">
+
+
+
+<row id="tr1009">
+
+
+
+<entry id="td1004">
+
+
+
+<media id="media1004" alt="Missing image" display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/ostxm.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Accept_the_license" effect="bold">
+
+Accept the license
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+Read the license, check the box, and click the 
+
+<emphasis id="strong1017" effect="bold">
+Next
+
+</emphasis>
+ button. 
+When you do that, you should land on the 
+
+<emphasis id="strong1018" effect="bold">
+New module: Metadata
+
+</emphasis>
+ 
+page shown in 
+
+<link id="a1049" target-id="Figure_6">
+
+ Figure 6
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1005" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1005">
+
+
+
+<row id="tr1010">
+
+
+
+<entry id="th1005">
+
+
+
+<emphasis id="Figure_6" effect="bold">
+
+Figure 6.
+
+</emphasis>
+
+ New module: Metadata.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1005">
+
+
+
+<row id="tr1011">
+
+
+
+<entry id="td1005">
+
+
+
+<media id="media1005" alt="Missing image" display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/ostxp.jpg" width="1042" height="1041"/>
+</media>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="A_word_about_work_spaces" effect="bold">
+
+A word about work spaces
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+Note first that your new 
+
+<emphasis id="strong1019" effect="bold">
+module
+
+</emphasis>
+ is being created in your 
+
+<emphasis id="strong1020" effect="bold">
+Personal Workspace
+
+</emphasis>
+, 
+which is the default workspace for new modules. Later on, you can create other 
+work spaces, which is a useful mechanism for separating your work into 
+categories. For example, if you decide to create one 
+
+<emphasis id="strong1021" effect="bold">
+Book
+
+</emphasis>
+ on cats and another 
+
+
+<emphasis id="strong1022" effect="bold">
+Book
+
+</emphasis>
+ on dogs, it might make sense to separate the modules belonging to each 
+
+
+<emphasis id="strong1023" effect="bold">
+Book
+
+</emphasis>
+ into its own appropriately named work space. 
+
+<emphasis id="em1001" effect="italics">
+(The list of items that 
+you see in the leftmost column in 
+
+<link id="a1050" target-id="Figure_6">
+
+ Figure 6
+
+</link>
+
+ is a partial list of my work spaces, also 
+called work groups.)
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+
+<para id="p1016">
+For the time being, we will stay with the default 
+
+<emphasis id="strong1024" effect="bold">
+Personal 
+Workspace
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Enter_the_metadata" effect="bold">
+
+Enter the metadata
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+As you can see from the form in 
+
+<link id="a1051" target-id="Figure_6">
+
+ Figure 6
+
+</link>
+
+, the metadata consists of
+
+</para>
+
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1038">
+Title
+
+</item>
+
+
+	
+
+<item id="li1039">
+Language
+
+</item>
+
+
+	
+
+<item id="li1040">
+Subject
+
+</item>
+
+
+	
+
+<item id="li1041">
+Keywords
+
+</item>
+
+
+	
+
+<item id="li1042">
+Summary
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+<para id="p1018">
+The 
+
+<emphasis id="strong1025" effect="bold">
+title
+
+</emphasis>
+ is how your 
+
+<emphasis id="strong1026" effect="bold">
+module
+
+</emphasis>
+ is identified on OpenStax. For example, see my 
+
+
+<emphasis id="strong1027" effect="bold">
+module
+
+</emphasis>
+ titled 
+
+<link id="a1052" url="http://cnx.org/contents/-2RmHFs_:0xo_9JXz">
+
+Java3000: The Guzdial-Ericson Multimedia Class Library
+
+</link>
+
+, 
+which is included as a 
+
+<emphasis id="strong1028" effect="bold">
+Page
+
+</emphasis>
+ in my 
+
+<emphasis id="strong1029" effect="bold">
+Book
+
+</emphasis>
+ titled 
+
+
+<link id="a1053" url="http://cnx.org/contents/-2RmHFs_:kFS-maG_">
+
+Object-Oriented Programming (OOP) with Java
+
+</link>
+
+. 
+If you do an 
+
+<link id="a1054" url="http://cnx.org/search">
+
+advanced search
+
+</link>
+
+ for an author 
+named Richard Baldwin, the search results showing 
+
+<emphasis id="strong1030" effect="bold">
+Books
+
+</emphasis>
+ and 
+
+<emphasis id="strong1031" effect="bold">
+
+Pages
+
+</emphasis>
+ will be reported by title.
+
+</para>
+
+
+
+
+
+<para id="p1019">
+The 
+
+<emphasis id="strong1032" effect="bold">
+language
+
+</emphasis>
+ item in the metadata is self-explanatory.
+
+</para>
+
+
+
+
+
+<para id="p1020">
+The 
+
+<emphasis id="strong1033" effect="bold">
+keywords
+
+</emphasis>
+ come into play if you do a search by keyword. 
+For example if you do an 
+
+<link id="a1055" url="http://cnx.org/search">
+
+advanced search
+
+</link>
+
+ for the keyword
+
+
+<emphasis id="strong1034" effect="bold">
+polymorphism
+
+</emphasis>
+, the search results will show the 
+
+<emphasis id="strong1035" effect="bold">
+Books
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1036" effect="bold">
+Pages
+
+</emphasis>
+ for which the author has declared 
+
+<emphasis id="strong1037" effect="bold">
+
+polymorphism
+
+</emphasis>
+ as a keyword in the metadata for the modules. 
+
+</para>
+
+
+
+
+
+<para id="p1021">
+The 
+
+<emphasis id="strong1038" effect="bold">
+summary
+
+</emphasis>
+ is just that; a paragraph or two that provides a 
+summary of the 
+
+<emphasis id="strong1039" effect="bold">
+module
+
+</emphasis>
+. Summaries show up in a variety of locations including 
+near 
+the top when a 
+
+<emphasis id="strong1040" effect="bold">
+Page
+
+</emphasis>
+ is displayed in a browser. For example, go 
+to 
+
+<link id="a1056" url="http://cnx.org/contents/-2RmHFs_:0xo_9JXz">
+
+Java3000: The Guzdial-Ericson Multimedia Class Library
+
+</link>
+
+ 
+and click on the word 
+
+<emphasis id="strong1041" effect="bold">
+Summary
+
+</emphasis>
+ near the top of the page.
+
+</para>
+
+
+
+
+
+<para id="p1022">
+Go ahead and enter the metadata for your new 
+
+<emphasis id="strong1042" effect="bold">
+module
+
+</emphasis>
+ and then click the
+
+
+<emphasis id="strong1043" effect="bold">
+Next
+
+</emphasis>
+ button. When you do, you should land on a page similar to 
+that shown in 
+
+<link id="a1057" target-id="Figure_7">
+
+ Figure 7
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1006" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1006">
+
+
+
+<row id="tr1012">
+
+
+
+<entry id="th1006">
+
+
+
+<emphasis id="Figure_7" effect="bold">
+
+Figure 7.
+
+</emphasis>
+
+ Import CNXML and zip files.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1006">
+
+
+
+<row id="tr1013">
+
+
+
+<entry id="td1006">
+
+
+
+<media id="media1006" alt="Missing image" display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/ostxr.jpg" width="1046" height="1035"/>
+</media>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Import_CNXML_file" effect="bold">
+
+Import CNXML file
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1023">
+<link id="a1058" target-id="Figure_7">
+
+ Figure 7
+
+</link>
+
+ shows the page from which you import your CNXML file and your 
+optional zip 
+file. There is a pull-down list about two-thirds of the way down the page 
+just to the left of center and immediately to the left of a button labeled
+
+
+<emphasis id="strong1044" effect="bold">
+Import
+
+</emphasis>
+. To import a CNXML file, pull the list down, 
+select 
+
+<emphasis id="strong1045" effect="bold">
+Plain CNXML
+
+</emphasis>
+, and click the 
+
+<emphasis id="strong1046" effect="bold">
+Import
+
+</emphasis>
+ 
+button. To import a zip file, pull the list down, select 
+
+<emphasis id="strong1047" effect="bold">
+Zip File
+
+</emphasis>
+, 
+and click the 
+
+<emphasis id="strong1048" effect="bold">
+Import
+
+</emphasis>
+ button.
+
+</para>
+
+
+
+
+
+<para id="p1024">
+The page will then change to that shown in 
+
+<link id="a1059" target-id="Figure_8">
+
+ Figure 8
+
+</link>
+
+ with a 
+
+<emphasis id="strong1049" effect="bold">
+Browse...
+
+</emphasis>
+ button.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1007" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1007">
+
+
+
+<row id="tr1014">
+
+
+
+<entry id="th1007">
+
+
+
+<emphasis id="Figure_8" effect="bold">
+
+Figure 8.
+
+</emphasis>
+
+ Page with a Browse... button.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1007">
+
+
+
+<row id="tr1015">
+
+
+
+<entry id="td1007">
+
+
+
+<media id="media1007" alt="Missing image" display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/ostxt.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1025">
+Click the 
+
+<emphasis id="strong1050" effect="bold">
+Browse
+
+</emphasis>
+ button and a typical Browse dialog similar to that shown in 
+
+
+<link id="a1060" target-id="Figure_9">
+
+ Figure 9
+
+</link>
+
+ will appear.
+
+</para>
+
+
+
+
+
+
+<table id="table1008" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1008">
+
+
+
+<row id="tr1016">
+
+
+
+<entry id="th1008">
+
+
+
+<emphasis id="Figure_9" effect="bold">
+
+Figure 9.
+
+</emphasis>
+
+ Typical Browse dialog box.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1008">
+
+
+
+<row id="tr1017">
+
+
+
+<entry id="td1008">
+
+
+
+<media id="media1008" alt="Missing image" display="block">
+<image id="img1008" mime-type="image/jpeg" src="../../media/ostxv.jpg" width="782" height="591"/>
+</media>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1026">
+Browse to the location of your CNXML file, select your CNXML file, and click the 
+
+<emphasis id="strong1051" effect="bold">
+Open
+
+</emphasis>
+ button. That will 
+place the name of your CNXML file in the box to the left of the 
+
+<emphasis id="strong1052" effect="bold">
+Import
+
+</emphasis>
+ 
+button. You will need to click the 
+
+<emphasis id="strong1053" effect="bold">
+Import
+
+</emphasis>
+ button one more time 
+to cause the actual import to take place.
+
+</para>
+
+
+
+
+
+<para id="p1027">
+This is where CNXML compatibility errors will appear if there are any. For 
+example, if your original XHTML file contained an anchor, which in turn 
+contained a comma, that will cause an error that will be identified at this 
+point in the process. 
+
+<emphasis id="em1002" effect="italics">
+(Hopefully you learned not to do that when you studied 
+the 
+
+<emphasis id="strong1054" effect="bold">
+Page
+
+</emphasis>
+ titled 
+
+<link id="a1061" url="http://cnx.org/contents/sbe4y4Pz:jwJWiTyV">
+
+Wysiwyg0100 Getting Started
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+
+<para id="p1028">
+Also, hopefully there won't be any import errors and you will see a screen 
+similar to that shown in 
+
+<link id="a1062" target-id="Figure_10">
+
+ Figure 10
+
+</link>
+
+. Note the yellow banner at the top with the 
+good news: 
+
+<emphasis id="strong1055" effect="bold">
+Import complete
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+
+<table id="table1009" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1009">
+
+
+
+<row id="tr1018">
+
+
+
+<entry id="th1009">
+
+
+
+<emphasis id="Figure_10" effect="bold">
+
+Figure 10.
+
+</emphasis>
+
+ Import complete.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1009">
+
+
+
+<row id="tr1019">
+
+
+
+<entry id="td1009">
+
+
+
+<media id="media1009" alt="Missing image" display="block">
+<image id="img1009" mime-type="image/jpeg" src="../../media/ostxw.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Import_zip_file" effect="bold">
+
+Import zip file
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1029">
+If your 
+
+<emphasis id="strong1056" effect="bold">
+module
+
+</emphasis>
+ includes a zip file in addition to the CNXML file, repeat the 
+import process to import the zip file.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Preview_your_module" effect="bold">
+
+Preview your module
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+Congratulations, you have just created a 
+
+<emphasis id="strong1057" effect="bold">
+module
+
+</emphasis>
+. If you would like to preview 
+it before you publish it, select the 
+
+<emphasis id="strong1058" effect="bold">
+Online
+
+</emphasis>
+ link under 
+
+<emphasis id="strong1059" effect="bold">
+View
+
+</emphasis>
+ shown on the right 
+in 
+
+<link id="a1063" target-id="Figure_10">
+
+ Figure 10
+
+</link>
+
+. That will give you a preview of your 
+
+<emphasis id="strong1060" effect="bold">
+module
+
+</emphasis>
+ in Legacy format. 
+
+<emphasis id="em1003" effect="italics">
+
+(As 
+of March 2016, it is not possible to preview the 
+
+<emphasis id="strong1061" effect="bold">
+module
+
+</emphasis>
+ in the more modern 
+OpenStax format but this may change at some point in the future.)
+
+</emphasis>
+</para>
+
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Publish_your_module" effect="bold">
+
+Publish your module
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+To publish your 
+
+<emphasis id="strong1062" effect="bold">
+module
+
+</emphasis>
+, select the 
+
+<emphasis id="strong1063" effect="bold">
+Publish
+
+</emphasis>
+ tab at the top 
+of 
+
+<link id="a1064" target-id="Figure_10">
+
+ Figure 10
+
+</link>
+
+ or 
+the 
+
+<emphasis id="strong1064" effect="bold">
+Publish
+
+</emphasis>
+ link under 
+
+<emphasis id="strong1065" effect="bold">
+Actions
+
+</emphasis>
+ on the right in 
+
+
+<link id="a1065" target-id="Figure_10">
+
+ Figure 10
+
+</link>
+
+. 
+In either case, you should land on a page similar to that shown in 
+
+<link id="a1066" target-id="Figure_11">
+
+ Figure 11
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1010" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1010">
+
+
+
+<row id="tr1020">
+
+
+
+<entry id="th1010">
+
+
+
+<emphasis id="Figure_11" effect="bold">
+
+Figure 11.
+
+</emphasis>
+
+ Publish module.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1010">
+
+
+
+<row id="tr1021">
+
+
+
+<entry id="td1010">
+
+
+
+<media id="media1010" alt="Missing image" display="block">
+<image id="img1010" mime-type="image/jpeg" src="../../media/ostxx.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1032">
+OpenStax uses a version control system that makes every version of every 
+
+
+<emphasis id="strong1066" effect="bold">
+module
+
+</emphasis>
+ ever published available for viewing. Thus, when you publish or republish a 
+
+<emphasis id="strong1067" effect="bold">
+module
+
+</emphasis>
+, 
+the system wants you to provide a description of the change that led to this 
+version of the 
+
+<emphasis id="strong1068" effect="bold">
+module
+
+</emphasis>
+. When you first publish a 
+
+<emphasis id="strong1069" effect="bold">
+module
+
+</emphasis>
+, the description defaults 
+to "Created module" but you can change that if you want to.
+
+</para>
+
+
+
+
+
+<para id="p1033">
+Click the 
+
+<emphasis id="strong1070" effect="bold">
+Publish
+
+</emphasis>
+ button to cause your new 
+
+<emphasis id="strong1071" effect="bold">
+module
+
+</emphasis>
+ to be 
+published. The first time you publish a 
+
+<emphasis id="strong1072" effect="bold">
+module
+
+</emphasis>
+, this will cause you to land on a 
+page that explains something to the effect that once you publish a 
+
+<emphasis id="strong1073" effect="bold">
+module
+
+</emphasis>
+, you 
+cannot retract it. That page asks you to confirm that you really do want to 
+publish the 
+
+<emphasis id="strong1074" effect="bold">
+module
+
+</emphasis>
+. Click the button labeled 
+
+<emphasis id="strong1075" effect="bold">
+Yes publish
+
+</emphasis>
+ on that page 
+to continue. 
+
+<emphasis id="em1004" effect="italics">
+(If you update and re-publish a 
+
+</emphasis>
+ 
+
+<emphasis id="strong1076" effect="bold">
+<emphasis id="em1005" effect="italics">
+module
+
+</emphasis>
+</emphasis>
+<emphasis id="em1006" effect="italics">
+, you are not asked for 
+that confirmation.)
+
+</emphasis>
+</para>
+
+
+
+
+
+<para id="p1034">
+After you click the 
+
+<emphasis id="strong1077" effect="bold">
+Publish
+
+</emphasis>
+ button in 
+
+<link id="a1067" target-id="Figure_11">
+
+ Figure 11
+
+</link>
+
+, and confirm that you really 
+do want to publish the 
+
+<emphasis id="strong1078" effect="bold">
+module
+
+</emphasis>
+ for the first time, you should land on a page 
+similar to that shown in 
+
+<link id="a1068" target-id="Figure_12">
+
+ Figure 12
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1011" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1011">
+
+
+
+<row id="tr1022">
+
+
+
+<entry id="th1011">
+
+
+
+<emphasis id="Figure_12" effect="bold">
+
+Figure 12.
+
+</emphasis>
+
+ Item published.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1011">
+
+
+
+<row id="tr1023">
+
+
+
+<entry id="td1011">
+
+
+
+<media id="media1011" alt="Missing image" display="block">
+<image id="img1011" mime-type="image/jpeg" src="../../media/ostxz.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1035">
+This page confirms that the 
+
+<emphasis id="strong1079" effect="bold">
+module
+
+</emphasis>
+ has been published and provides some information about the 
+
+<emphasis id="strong1080" effect="bold">
+module
+
+</emphasis>
+. This page also provides a link that reads 
+
+
+<emphasis id="strong1081" effect="bold">
+view published version online
+
+</emphasis>
+ near the center of the page. Select that link 
+and you should see something similar to 
+
+<link id="a1069" target-id="Figure_13">
+
+ Figure 13
+
+</link>
+
+, which is the legacy view of a 
+
+
+<emphasis id="strong1082" effect="bold">
+module
+
+</emphasis>
+. Of course, yours will look different because it contains different 
+content.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1012" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1012">
+
+
+
+<row id="tr1024">
+
+
+
+<entry id="th1012">
+
+
+
+<emphasis id="Figure_13" effect="bold">
+
+Figure 13.
+
+</emphasis>
+
+ Legacy view of a module.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1012">
+
+
+
+<row id="tr1025">
+
+
+
+<entry id="td1012">
+
+
+
+<media id="media1012" alt="Missing image" display="block">
+<image id="img1012" mime-type="image/jpeg" src="../../media/ostxz1.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1036">
+Near the center of that page is a link that reads 
+
+<emphasis id="strong1083" effect="bold">
+The new style version is 
+available here
+
+</emphasis>
+. Select that link and you should see something similar to 
+
+
+<link id="a1070" target-id="Figure_14">
+
+ Figure 14
+
+</link>
+
+, which is the OpenStax 
+
+<emphasis id="strong1084" effect="bold">
+Page
+
+</emphasis>
+ view of a 
+
+<emphasis id="strong1085" effect="bold">
+module
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1013" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1013">
+
+
+
+<row id="tr1026">
+
+
+
+<entry id="th1013">
+
+
+
+<emphasis id="Figure_14" effect="bold">
+
+Figure 14.
+
+</emphasis>
+
+ OpenStax view of a module.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1013">
+
+
+
+<row id="tr1027">
+
+
+
+<entry id="td1013">
+
+
+
+<media id="media1013" alt="Missing image" display="block">
+<image id="img1013" mime-type="image/jpeg" src="../../media/ostxz2.jpg" width="1042" height="1041"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Create_a_collection" effect="bold">
+
+Create a collection
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+An OpenStax 
+
+<emphasis id="strong1086" effect="bold">
+module
+
+</emphasis>
+ or 
+
+<emphasis id="strong1087" effect="bold">
+Page
+
+</emphasis>
+ is a stand-alone independent document. It has its 
+own identity independent of all other modules and collections.
+
+</para>
+
+
+
+
+
+<para id="p1038">
+Sometimes it is useful to create a 
+
+<emphasis id="strong1088" effect="bold">
+collection
+
+</emphasis>
+ and to group two or more 
+modules under the umbrella of that 
+
+<emphasis id="strong1089" effect="bold">
+collection
+
+</emphasis>
+. For example, my 
+
+<emphasis id="strong1090" effect="bold">
+Book
+
+</emphasis>
+ titled 
+
+
+<link id="a1071" url="http://cnx.org/contents/-2RmHFs_:kFS-maG_">
+
+Object-Oriented Programming (OOP) with Java
+
+</link>
+
+ 
+groups many modules into a 
+
+<emphasis id="strong1091" effect="bold">
+collection
+
+</emphasis>
+, which is actually structured into 
+sub-collections. However, such grouping has no impact on the independence of the 
+modules. Any 
+
+<emphasis id="strong1092" effect="bold">
+module
+
+</emphasis>
+ may or may not be grouped with other modules to form a 
+
+
+<emphasis id="strong1093" effect="bold">
+collection
+
+</emphasis>
+ or a 
+
+
+<emphasis id="strong1094" effect="bold">
+Book
+
+</emphasis>
+. 
+Furthermore, a 
+
+<emphasis id="strong1095" effect="bold">
+module
+
+</emphasis>
+ may be included in two or more groups that comprise 
+independent collections.
+
+</para>
+
+
+
+
+
+<para id="p1039">
+I am not going to guide you through the creation and population of a 
+
+
+<emphasis id="strong1096" effect="bold">
+collection
+
+</emphasis>
+ in a step-by-step manner. However, I will hit some of the high spots. Go 
+back to 
+
+<link id="a1072" target-id="Figure_4">
+
+ Figure 4
+
+</link>
+
+ as the starting point. Instead of selecting the link to 
+
+<emphasis id="strong1097" effect="bold">
+
+Create a new module
+
+</emphasis>
+, select the link to 
+
+<emphasis id="strong1098" effect="bold">
+Create a new collection
+
+</emphasis>
+. Once 
+again you will have to accept the license and after you have done that, you 
+should land on a page very similar to that shown in 
+
+<link id="a1073" target-id="Figure_15">
+
+ Figure 15
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+
+<table id="table1014" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1014">
+
+
+
+<row id="tr1028">
+
+
+
+<entry id="th1014">
+
+
+
+<emphasis id="Figure_15" effect="bold">
+
+Figure 15.
+
+</emphasis>
+
+ New collection: Metadata.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1014">
+
+
+
+<row id="tr1029">
+
+
+
+<entry id="td1014">
+
+
+
+<media id="media1014" alt="Missing image" display="block">
+<image id="img1014" mime-type="image/jpeg" src="../../media/ostxz4.jpg" width="1024" height="1047"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1040">
+You should recognize 
+
+<link id="a1074" target-id="Figure_15">
+
+ Figure 15
+
+</link>
+
+ as being very similar to 
+
+<link id="a1075" target-id="Figure_5">
+
+ Figure 5
+
+</link>
+
+ in which you 
+enter the metadata for a 
+
+<emphasis id="strong1099" effect="bold">
+module
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+<para id="p1041">
+Go ahead and enter the metadata for the new 
+
+<emphasis id="strong1100" effect="bold">
+collection
+
+</emphasis>
+ and click the 
+
+<emphasis id="strong1101" effect="bold">
+
+Next
+
+</emphasis>
+ button.
+
+</para>
+
+
+
+
+
+<para id="p1042">
+This will cause you to land on a page that allows you to populate the 
+
+
+<emphasis id="strong1102" effect="bold">
+collection
+
+</emphasis>
+ with modules and perhaps subcollections as well.
+
+</para>
+
+
+
+
+
+<para id="p1043">
+Click on the link labeled 
+
+<emphasis id="strong1103" effect="bold">
+Add modules
+
+</emphasis>
+ near the center of the 
+page 
+
+<emphasis id="em1007" effect="italics">
+(shown in 
+
+<link id="a1076" target-id="Figure_16">
+
+ Figure 16
+
+</link>
+
+)
+
+</emphasis>
+ and 
+a dialog will appear at the top of the page that you can use to search for a 
+
+
+<emphasis id="strong1104" effect="bold">
+module
+
+</emphasis>
+ to add. Enter the title of the 
+
+<emphasis id="strong1105" effect="bold">
+module
+
+</emphasis>
+ that you want to add and you screen should 
+look similar to that shown in 
+
+<link id="a1077" target-id="Figure_16">
+
+ Figure 16
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1015" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1015">
+
+
+
+<row id="tr1030">
+
+
+
+<entry id="th1015">
+
+
+
+<emphasis id="Figure_16" effect="bold">
+
+Figure 16.
+
+</emphasis>
+
+ Add modules to a collection.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1015">
+
+
+
+<row id="tr1031">
+
+
+
+<entry id="td1015">
+
+
+
+<media id="media1015" alt="Missing image" display="block">
+<image id="img1015" mime-type="image/jpeg" src="../../media/ostxz6.jpg" width="1028" height="1046"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1044">
+Click the button labeled 
+
+<emphasis id="strong1106" effect="bold">
+Search for modules
+
+</emphasis>
+ and after a 
+couple of obvious steps you screen should resemble 
+
+<link id="a1078" target-id="Figure_17">
+
+ Figure 17
+
+</link>
+
+. Note that the new 
+
+
+<emphasis id="strong1107" effect="bold">
+collection
+
+</emphasis>
+ now contains the 
+
+<emphasis id="strong1108" effect="bold">
+module
+
+</emphasis>
+ that was specified for adding in 
+
+<link id="a1079" target-id="Figure_16">
+
+ Figure 16
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<table id="table1016" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1016">
+
+
+
+<row id="tr1032">
+
+
+
+<entry id="th1016">
+
+
+
+<emphasis id="Figure_17" effect="bold">
+
+Figure 17.
+
+</emphasis>
+
+ Result of adding a module to a collection.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1016">
+
+
+
+<row id="tr1033">
+
+
+
+<entry id="td1016">
+
+
+
+<media id="media1016" alt="Missing image" display="block">
+<image id="img1016" mime-type="image/jpeg" src="../../media/ostxz8.jpg" width="1024" height="1047"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1045">
+After you have added one or more modules to your new 
+
+<emphasis id="strong1109" effect="bold">
+collection
+
+</emphasis>
+, you will 
+need to publish it. Select the link labeled 
+
+<emphasis id="strong1110" effect="bold">
+Publish
+
+</emphasis>
+ on the right side of 
+
+
+<link id="a1080" target-id="Figure_17">
+
+ Figure 17
+
+</link>
+
+. You will find that the steps for publishing a collections are very similar 
+to the steps for publishing a 
+
+<emphasis id="strong1111" effect="bold">
+module
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+<para id="p1046">
+It is important to note that once a 
+
+<emphasis id="strong1112" effect="bold">
+module
+
+</emphasis>
+ has been added to a 
+
+<emphasis id="strong1113" effect="bold">
+collection
+
+</emphasis>
+, if 
+the 
+
+<emphasis id="strong1114" effect="bold">
+module
+
+</emphasis>
+ is modified, the 
+
+<emphasis id="strong1115" effect="bold">
+collection
+
+</emphasis>
+ will contain the modified version 
+with no requirement to re-publish the 
+
+<emphasis id="strong1116" effect="bold">
+collection
+
+</emphasis>
+. In 
+other words, as a practical matter, the 
+
+<emphasis id="strong1117" effect="bold">
+collection
+
+</emphasis>
+ simply contains pointers to 
+the modules that it "contains." In other words, the collections doesn't actually 
+own the modules. Instead, the 
+
+<emphasis id="strong1118" effect="bold">
+collection
+
+</emphasis>
+ simply provides a convenient path 
+through which the most current versions of the modules can be viewed.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Checkout_a_module_or_a_collection" effect="bold">
+
+Checkout a module or a 
+collection
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1047">
+Once you have published a 
+
+<emphasis id="strong1119" effect="bold">
+module
+
+</emphasis>
+ or a 
+
+<emphasis id="strong1120" effect="bold">
+collection
+
+</emphasis>
+, if you want to make 
+changes, you must "check it out", modify it, and re-publish it. For example, 
+
+
+<link id="a1081" target-id="Figure_12">
+
+ Figure 12
+
+</link>
+
+ shows a 
+
+<emphasis id="strong1121" effect="bold">
+Checkout
+
+</emphasis>
+ button that can be used to check the 
+
+<emphasis id="strong1122" effect="bold">
+module
+
+</emphasis>
+ out for 
+modifications.
+
+</para>
+
+
+
+
+
+<para id="p1048">
+There are several ways that you can check out a 
+
+<emphasis id="strong1123" effect="bold">
+module
+
+</emphasis>
+ or a 
+
+
+<emphasis id="strong1124" effect="bold">
+collection
+
+</emphasis>
+. The way that I normally do it is to open the work 
+space that 
+contains a list of all of the modules and collections that have been created in 
+that work space. They are listed by title and some other information is also 
+provided such as the current status: 
+
+<emphasis id="em1008" effect="italics">
+created
+
+</emphasis>
+, 
+
+<emphasis id="em1009" effect="italics">
+modified
+
+</emphasis>
+, 
+
+<emphasis id="em1010" effect="italics">
+published
+
+</emphasis>
+, etc.
+
+</para>
+
+
+
+
+
+<para id="p1049">
+Click on the title of the 
+
+<emphasis id="strong1125" effect="bold">
+module
+
+</emphasis>
+ or the 
+
+<emphasis id="strong1126" effect="bold">
+collection
+
+</emphasis>
+ that you want to modify. If the state 
+is 
+
+<emphasis id="em1011" effect="italics">
+created
+
+</emphasis>
+ or 
+
+<emphasis id="em1012" effect="italics">
+modified
+
+</emphasis>
+, it will open the page shown in 
+
+<link id="a1082" target-id="Figure_7">
+
+ Figure 7
+
+</link>
+
+ allowing you to 
+edit and then to re-publish the 
+
+<emphasis id="strong1127" effect="bold">
+module
+
+</emphasis>
+ or 
+
+<emphasis id="strong1128" effect="bold">
+collection
+
+</emphasis>
+. If the state is 
+
+
+<emphasis id="em1013" effect="italics">
+published
+
+</emphasis>
+, 
+you will get a 
+
+<emphasis id="strong1129" effect="bold">
+Checkout
+
+</emphasis>
+ button. Clicking the 
+
+<emphasis id="strong1130" effect="bold">
+Checkout
+
+</emphasis>
+ button 
+will cause you to land on the page shown in 
+
+<link id="a1083" target-id="Figure_7">
+
+ Figure 7
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<para id="p1050">
+Remember that checking out a 
+
+<emphasis id="strong1131" effect="bold">
+module
+
+</emphasis>
+ or 
+
+<emphasis id="strong1132" effect="bold">
+collection
+
+</emphasis>
+ and modifying it doesn't 
+modify the view that is available to the public. In order to change that view, 
+you must re-publish the modified version.
+
+</para>
+
+
+
+
+
+	
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1051">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1001" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1133" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1008" list-type="bulleted">
+
+					
+
+<item id="li1043">
+Module name: Step-by-Step Guide to OpenStax Publishing
+
+</item>
+
+
+					
+
+<item id="li1044">
+File: Wysiwyg0120.htm
+
+</item>
+
+
+					
+
+<item id="li1045">
+Published: 03/24/16
+
+</item>
+
+
+
+				
+
+</list>
+
+
+
+				
+
+</note>
+
+
+
+
+
+	
+
+<note id="note1002" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1134" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1052">
+<emphasis id="strong1135" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+
+				
+
+<para id="p1053">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+
+				
+
+<para id="p1054">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+
+				
+
+<para id="p1055">
+<emphasis id="strong1136" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+
+
+</note>
+
+
+
+	
+
+
+<para id="p1056">
+-end- 
+
+</para>
+
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

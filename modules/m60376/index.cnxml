@@ -1,0 +1,4617 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Wysiwyg0100 Getting Started</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60376</md:content-id>
+  <md:title>Wysiwyg0100 Getting Started</md:title>
+  <md:abstract>If you can create a valid XHTML file using a WYSIWYG editor such as the free version of Microsoft Expression Web 4, you can easily create and publish content on OpenStax using Dick Baldwin's free XHTML-to-CNXML translator program.
+This page explains how to use Baldwin's translator program along with a WYSIWYG XHTML editor to create and publish CNXML content on OpenStax.</md:abstract>
+  <md:uuid>8f025689-3c95-4ed4-958c-d6488e9616e6</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+
+
+<para id="p1000">
+Revised: Thu Mar 24 14:45:48 CDT 2016
+
+</para>
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1001">
+This page is part of a Book titled 
+
+
+<link id="a1000" url="http://cnx.org/contents/sbe4y4Pz:jwJWiTyV">
+
+OpenStax Publishing with a WYSIWYG Editor.
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+
+</note>
+
+
+
+
+
+
+</quote>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+<emphasis id="Table_of_contents" effect="bold">
+
+Table of contents
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1001" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1002" target-id="A_WYSIWYG_CNXML_editor">
+
+The elusive WYSIWYG CNXML editor
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1003" target-id="How_I_create_and_publish_content_on_OpenStax">
+
+How I create and publish 
+		CNXML content on OpenStax
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1004" target-id="How_you_could_publish_content_on_OpenStax">
+
+You too can publish 
+		CNXML content on OpenStax
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1004">
+<link id="a1005" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1005">
+<link id="a1006" target-id="Figures">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1006">
+<link id="a1007" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1007">
+<link id="a1008" target-id="Discussion">
+
+Discussion
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1009" target-id="How_it_works">
+
+How it works
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1010" target-id="Instructions_regarding_your_XHTML_code">
+
+Instructions regarding your XHTML code
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1011" target-id="Preformatted_text_and_program_source_code">
+
+Preformatted text and program source code
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1012" target-id="Hyperlinks">
+
+Hyperlinks
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1013" target-id="Table_considerations">
+
+Table considerations
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+				
+
+<item id="li1013">
+<link id="a1014" target-id="The_table_width_attribute">
+
+The table width attribute
+
+</link>
+
+
+</item>
+
+
+				
+
+<item id="li1014">
+<link id="a1015" target-id="The_table_border_attribute">
+
+The table border 
+				attribute
+
+</link>
+
+
+</item>
+
+
+				
+
+<item id="li1015">
+<link id="a1016" target-id="The_table_structure">
+
+Structure of a simple table
+
+</link>
+
+
+</item>
+
+
+				
+
+<item id="li1016">
+<link id="a1017" target-id="Structure_of_multi_column_multi_row_tables">
+
+Structure of multi-column, multi-row tables
+
+</link>
+
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1018" target-id="Ordinary_text">
+
+Ordinary text
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1019" target-id="XHTML_headers_and_CNXML_sections">
+
+XHTML headers and CNXML sections
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1019">
+<link id="a1020" target-id="Extraneous_entities">
+
+Extraneous entities
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1021" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1022" target-id="Validation">
+
+Validating your XHTML file
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1023" target-id="Dont_use_XHTML_break_tags">
+
+Don't use XHTML break tags
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1023">
+<link id="a1024" target-id="CNXML_editing_is_not_required">
+
+CNXML editing is not 
+			required
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1024">
+<link id="a1025" target-id="No_CNXML_Figure_objects_or_CNXML_Listing_objects">
+
+No 
+			CNXML Figure objects or CNXML Listing objects
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1025">
+<link id="a1026" target-id="Run_the_program">
+
+Run the program
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+		
+
+<item id="li1026">
+<link id="a1027" target-id="Running_the_program">
+
+Running the program
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1027">
+<link id="a1028" target-id="Upload_the_page_to_OpenStax">
+
+Upload and publish your new 
+		page
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1028">
+<link id="a1029" target-id="Helpful_information_regarding_OpenStax_authoring">
+
+Helpful 
+		hints regarding OpenStax authoring
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1030" target-id="The_utf8_character_set">
+
+The utf8 character set
+
+</link>
+
+
+</item>
+
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1031" target-id="Why_not_create_and_upload_MS_Word_documents_to_OpenStax">
+
+Why 
+	not create and upload Microsoft Word documents to OpenStax?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1031">
+<link id="a1032" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+
+
+	
+
+<item id="li1032">
+<link id="a1033" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+
+</list>
+
+
+	
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1002">
+This page is part of the took titled
+	
+
+<link id="a1034" url="http://cnx.org/contents/b1b7b8cb-83f3-4ece-a04c-0957720ff3d3@1.1">
+
+
+	OpenStax Publishing with a WYSIWYG Editor
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+<section id="h21000">
+<title>
+<emphasis id="A_WYSIWYG_CNXML_editor" effect="bold">
+
+The elusive WYSIWYG CNXML editor
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+Have you ever wished that you could use a WYSIWYG editor to create and 
+	publish CNXML content on OpenStax. Well, that is what I was wishing for in 2009. 
+Rather than just wish, however, I 
+	did something about it. I wrote an XHTML-to-CNXML translator program for 
+	translating XHTML files into CNXML files suitable for uploading and publishing on 
+	OpenStax. 
+
+<emphasis id="em1000" effect="italics">
+(OpenStax was called 
+
+<link id="a1035" target-id="Historical_context">
+
+Connections
+
+</link>
+
+ 
+at that point in time.)
+
+</emphasis>
+</para>
+
+
+
+
+
+<para id="p1004">
+If you go to the 
+
+<link id="a1036" url="http://cnx.org/search">
+
+Advanced Search
+
+</link>
+
+ feature at
+
+
+<link id="a1037" url="http://cnx.org/">
+
+OpenStax CNX
+
+</link>
+
+ and search for an author 
+	named Richard Baldwin, you will learn that I have used my translator program 
+along with
+	
+
+<link id="a1038" url="https://www.microsoft.com/en-us/download/details.aspx?id=36179">
+
+
+	Microsoft Expression Web 4
+
+</link>
+
+ to create and publish more than 770 Books and Pages on OpenStax since 2009. 
+	My approach really does work and it is easy to use.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="How_I_create_and_publish_content_on_OpenStax" effect="bold">
+
+How I create and 
+publish CNXML content on OpenStax
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+These are the four steps that I use to create and publish CNXML content on 
+OpenStax:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1033">
+For each new Page, I use the free version of
+	
+
+<link id="a1039" url="https://www.microsoft.com/en-us/download/details.aspx?id=36179">
+
+
+	Microsoft Expression Web 4
+
+</link>
+
+ to create a valid XHTML file describing my 
+	content. This mostly involves the use of the built-in WYSIWYG editor in 
+	Expression Web 4.
+
+</item>
+
+
+	
+
+<item id="li1034">
+Then I process the XHTML file through my XHTML-to-CNXML translator 
+	program named 
+	
+
+<emphasis id="strong1000" effect="bold">
+CNXMLprep12
+
+</emphasis>
+ to produce a CNXML file suitable for uploading to OpenStax.
+
+</item>
+
+
+	
+
+<item id="li1035">
+Then I upload the CNXML file to OpenStax.
+
+</item>
+
+
+	
+
+<item id="li1036">
+Last but not least, I publish the CNXML file on OpenStax.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1006">
+It couldn't be simpler. I do everything at the XHTML level, mostly using the 
+WYSIWYG editor. I rarely touch the raw XHTML code and I never touch the raw CNXML code.
+
+
+</para>
+
+
+
+
+<para id="p1007">
+I maintain all of my 
+archives in XHTML format. When I need to update a page, 
+
+<emphasis id="em1001" effect="italics">
+(as I am doing right 
+now)
+
+</emphasis>
+, I update the 
+corresponding XHTML file, 
+run it through my translator, upload the modified CNXML file to 
+OpenStax, and publish it. Once again, I never touch the raw CNXML code either 
+before or after uploading it to OpenStax.
+
+</para>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+
+
+
+<emphasis id="How_you_could_publish_content_on_OpenStax" effect="bold">
+
+You too can publish 
+CNXML content on OpenStax
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+In support of my strong interest in OER and free textbooks, I have decided to 
+make my translator program available for use by the general public. 
+
+</para>
+
+
+
+
+
+<para id="p1009">
+If you don't know anything about CNXML but you already know how to create a valid XHTML file using a WYSIWYG editor such as the free 
+version of
+
+
+<link id="a1040" url="https://www.microsoft.com/en-us/download/details.aspx?id=36179">
+
+Microsoft Expression Web 4
+
+</link>
+
+, you can easily create and publish 
+your CNXML content 
+on OpenStax using my free XHTML-to-CNXML translator program.
+
+</para>
+
+
+
+
+
+<para id="p1010">
+If you don't know about XHTML but you do already know how to use Microsoft Word, you should have no difficulty learning 
+how to use Microsoft Expression Web 4. That is because the user interface of Microsoft Expression Web 4 
+is very similar to the user interface of earlier generations of Microsoft Word.
+
+</para>
+
+
+
+
+
+<para id="p1011">
+By now you might be asking, 
+
+<emphasis id="em1002" effect="italics">
+"Why not just create and upload Microsoft Word documents to 
+OpenStax?"
+
+</emphasis>
+ Click
+
+
+<link id="a1041" target-id="Why_not_create_and_upload_MS_Word_documents_to_OpenStax">
+
+here
+
+</link>
+
+  to 
+learn my reasons for not doing that.
+
+</para>
+
+
+
+
+
+<para id="p1012">
+This page 
+explains how to use my translator program to create and publish your content. This page also provides a link to a downloadable zip file 
+that contains everything you need to get started 
+
+<emphasis id="em1003" effect="italics">
+(including executable 
+Java program files and an 
+XHTML template file)
+
+</emphasis>
+. The one thing that the zip file doesn't include is a WYSIWYG 
+XHTML editor. However, as of March 2016, you can download the free version of 
+
+
+<link id="a1042" url="https://www.microsoft.com/en-us/download/details.aspx?id=36179">
+
+Microsoft 
+Expression Web 4
+
+</link>
+
+. 
+
+
+</para>
+
+
+
+
+
+<para id="p1013">
+While you should be able to use any WYSIWYG XHTML editor, I recommend that you 
+use Microsoft Expression Web 4 if possible because it is free, because it has a built-in 
+validator, and because it is relatively easy to use.
+
+</para>
+
+
+
+
+
+<para id="p1014">
+By the way, this page was produced using the free version of Microsoft 
+Expression Web 4 in conjunction with my translator program.
+
+</para>
+
+
+
+	
+	
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1015">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the Figures 
+and Listings while you are reading about them.
+
+</para>
+
+
+
+	
+
+<section id="h31000">
+<title>
+<emphasis id="Figures" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1007" list-type="bulleted">
+
+		
+
+<item id="li1037">
+<link id="a1043" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+. Required table structure. 
+
+</item>
+
+
+		
+
+<item id="li1038">
+<link id="a1044" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Browser text colors
+
+</item>
+
+
+		
+
+<item id="li1039">
+<link id="a1045" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+. Image in a table. 
+
+</item>
+
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1040">
+<link id="a1046" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. Preformatted text.
+
+</item>
+
+
+
+	
+
+</list>
+
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Discussion" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+
+<para id="p1016">
+My translator program is named 
+
+<emphasis id="strong1001" effect="bold">
+CNXMLprep12
+
+</emphasis>
+. As you can 
+	see from the number at the end of the name, it has gone through quite a few improvements and 
+	iterations since 2009.
+
+
+</para>
+
+
+
+
+<section id="h21004">
+<title>
+<emphasis id="How_it_works" effect="bold">
+
+How it works
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+This section contains a brief description of how the program works. If you 
+don't care how it works, feel free to skip to the 
+
+
+<link id="a1047" target-id="Instructions_regarding_your_XHTML_code">
+
+next section
+
+</link>
+
+. If you are 
+not interested in any background information at this point and you just want to 
+create, upload and publish some content on OpenStax, skip ahead to the 
+section titled 
+
+<link id="a1048" target-id="Run_the_program">
+
+Run the program
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1018">
+The program consists of three major 
+Java classes: 
+
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1041">
+CNXMLprep12
+
+
+</item>
+
+
+	
+
+<item id="li1042">
+CNXMLFirstPass12
+
+
+</item>
+
+
+	
+
+<item id="li1043">
+CNXMLSecondPass12
+
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1019">
+The first class in the list is the driver.
+
+</para>
+
+
+
+
+<para id="p1020">
+Code in an object of the class named 
+
+
+<emphasis id="strong1002" effect="bold">
+CNXMLFirstPass12
+
+</emphasis>
+ reads a valid XHTML file and 
+performs several cleanup actions to make it 
+easier to convert the XHTML file to CNXML 
+format. It writes a temporary output file 
+named 
+
+<emphasis id="strong1003" effect="bold">
+CNXMLtemp.html
+
+</emphasis>
+ in XHTML format in the current folder. 
+
+
+</para>
+
+
+
+
+<para id="p1021">
+Following that, code in an object of the class named 
+
+
+<emphasis id="strong1004" effect="bold">
+CNXMLSecondPass12
+
+</emphasis>
+ reads the file named 
+
+<emphasis id="strong1005" effect="bold">
+CNXMLtemp.html
+
+</emphasis>
+ and 
+translates it into CNXML 
+code suitable for uploading to OpenStax.
+
+
+
+<emphasis id="em1004" effect="italics">
+(See the section named 
+
+<link id="a1049" target-id="Run_the_program">
+
+Run the Program
+
+</link>
+
+ for instructions on how to create and 
+upload a CNXML file to OpenStax.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Instructions_regarding_your_XHTML_code" effect="bold">
+
+Instructions regarding your 
+XHTML code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1022">
+I assume that you will be creating content containing headers, ordinary 
+paragraph text, preformatted text, ordered lists, unordered lists, blockquote, tables, images, 
+and programming source code, along 
+with other kinds of structures commonly found on web pages. This section 
+contains guidelines on how best to create that content in your XHTML editor.
+
+</para>
+
+
+
+
+<para id="p1023">
+
+Before going further, I need to point out that there are many CNXML tags that 
+cannot be created by this program. This is not a complete WYSIWYG CNXML editor. 
+Rather, it is a program designed to support a reasonable subset of approximately
+
+
+<link id="a1050" url="https://hub.mili.csom.umn.edu/eip-help/tags">
+
+57 tags
+
+</link>
+
+ that are 
+available in CNXML.
+
+</para>
+
+
+
+
+<section id="h31002">
+<title>
+<emphasis id="Preformatted_text_and_program_source_code" effect="bold">
+
+
+Preformatted text and program source code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+If you include program source code 
+
+<emphasis id="em1005" effect="italics">
+(such as 
+Java or C++ source code)
+
+</emphasis>
+ in the XHTML document,
+it must be placed in a preformatted block. For example, the code shown in 
+
+<link id="a1051" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ was placed in a preformatted block in a 
+table. It was placed in the table to make it easy to provide a caption and an anchor.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1000" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1000">
+
+
+
+<row id="tr1000">
+
+
+
+<entry id="th1000">
+
+
+
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. Preformatted text.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+
+<tfoot id="tfoot1000">
+
+
+
+<row id="tr1001">
+
+
+
+<entry id="td1000">
+
+Insert a footer at the top. It moves to the bottom.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tfoot>
+
+
+
+
+
+<tbody id="tbody1000">
+
+
+
+<row id="tr1002">
+
+
+
+<entry id="td1001">
+
+
+
+<code id="pre1000" display="block">out.println("&lt;html xmlns=\"http://www.w3.org" +
+                              "/1999/xhtml\"&gt;");
+
+out.println("&lt;head&gt;");
+out.println("&lt;meta content=\"text/html; " +
+"charset=utf-8\" http-equiv=\"Content-Type\"/&gt;");
+
+out.println("&lt;title&gt;dummy title&lt;/title&gt;");
+out.println("&lt;/head&gt;");
+out.println("&lt;body&gt;");&lt;out.println("&lt;body&gt;");
+</code>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+<para id="p1025">
+Table footers are optional. Although they are actually created at the top 
+
+<emphasis id="em1006" effect="italics">
+(below 
+the header)
+
+</emphasis>
+, they move to the bottom when the table is displayed in a 
+browser.
+
+</para>
+
+
+
+
+
+<para id="p1026">
+There must not be any formatting code, such as
+
+
+<emphasis id="strong1006" effect="bold">
+bold text
+
+</emphasis>
+ inside a preformatted block.
+
+
+
+</para>
+
+
+
+
+<para id="p1027">
+All left angle brackets, right angle brackets, quotes, and 
+ampersands in preformatted text must be 
+converted to the following entities in the raw 
+XHTML code before attempting the 
+
+<emphasis id="transformation" effect="bold">
+
+translation
+
+</emphasis>
+
+ into CNXML.
+
+</para>
+
+
+
+
+
+<note id="note1001" type="">
+
+
+		
+
+
+			
+
+
+
+
+
+
+
+<code id="pre1001" display="block">
+&lt; = &amp;lt;
+&gt; = &amp;gt;
+" = &amp;quot;
+&amp; = &amp;amp;
+</code>
+
+
+
+
+</note>
+
+
+
+	
+
+
+
+
+<para id="p1028">
+As an alternative to placing preformatted text in a table, free-standing preformatted text such as the source code 
+shown below is also allowed. Just be sure to deal with the angle brackets, 
+quotes, and ampersands as described 
+
+<link id="a1052" target-id="transformation">
+
+above
+
+</link>
+
+ if you create free-standing 
+preformatted text.
+
+</para>
+
+
+
+
+
+<code id="pre1002" display="block">
+import org.newdawn.slick.AppGameContainer;
+import org.newdawn.slick.BasicGame;
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
+
+public class Slick0130a extends BasicGame{
+  
+  //Instance variables for use in computing and
+  // displaying total time since program start and
+  // time for each frame.
+  double totalTime = 0;
+  int incrementalTime = 0;
+
+  public Slick0130a(){
+    //Call to superclass constructor is required.
+    super("Slick0130a, Baldwin.");
+  }//end constructor
+  //----------------------------------------------------//
+</code>
+
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Hyperlinks" effect="bold">
+
+Hyperlinks
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+The program translates hyperlinks for local anchors 
+
+<emphasis id="em1007" effect="italics">
+(inside 
+the document)
+
+</emphasis>
+ and for external web sites.
+
+
+</para>
+
+
+
+
+<para id="p1030">
+All hyperlink target names must be unique. You must also make 
+certain that target names for local anchors don't include spaces or punctuation characters such as 
+comma, colon, semicolon, dash, etc. Just use letters, numbers, and underscore 
+characters 
+
+<emphasis id="em1008" effect="italics">
+(
+
+<link id="a1053" target-id="Figure_01">
+
+ Figure 01
+
+</link>
+
+ for example)
+
+</emphasis>
+ for your local anchor target names.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Table_considerations" effect="bold">
+
+Table considerations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+XHTML tables and CNXML tables come in many different varieties and formats. 
+This program supports a subset of those varieties and formats.
+
+</para>
+
+
+
+
+
+<section id="h41000">
+<title>
+
+
+
+<emphasis id="The_table_width_attribute" effect="bold">
+
+The table "width" attribute
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1032">
+The XHTML table 
+
+<emphasis id="strong1007" effect="bold">
+width
+
+</emphasis>
+ attribute is translated into a CNXML
+
+
+<emphasis id="strong1008" effect="bold">
+pgwide
+
+</emphasis>
+ attribute. Here is what the OpenStax documentation has 
+to say about the
+
+
+<emphasis id="strong1009" effect="bold">
+pgwide
+
+</emphasis>
+ attribute:
+
+</para>
+
+
+
+
+
+<quote id="blockquote1001" display="block">
+<para id="p1033">
+
+	
+
+<emphasis id="strong1010" effect="bold">
+pgwide
+
+</emphasis>
+ (optional): Determines the available width of the table. 
+
+</para>
+
+
+
+	
+
+<para id="p1034">
+
+	Possible values: 
+
+</para>
+
+
+
+	
+
+<list id="ul1010" list-type="bulleted">
+
+		
+
+<item id="li1044">
+<emphasis id="strong1011" effect="bold">
+0
+
+</emphasis>
+ - Maximum width of the table is the galley width (default).
+		
+
+</item>
+
+
+		
+
+<item id="li1045">
+<emphasis id="strong1012" effect="bold">
+any positive integer
+
+</emphasis>
+ - The width of the table is the entire width of the page.
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</quote>
+
+
+
+
+<para id="p1035">
+What this really seems to mean is that for a 
+
+<emphasis id="strong1013" effect="bold">
+width
+
+</emphasis>
+ value of 0, the 
+table will only be wide enough to display its contents. For a 
+
+<emphasis id="strong1014" effect="bold">
+width
+
+</emphasis>
+ 
+value 
+of 1, the table will be the full width of the OpenStax page in the browser. 
+
+</para>
+
+
+
+
+
+<para id="p1036">
+As 
+of March 16, this width variation only works in the Legacy view. 
+When the table is viewed in the newer OpenStax view, all tables seem to be full 
+width regardless of the value of 
+
+<emphasis id="strong1015" effect="bold">
+pgwide
+
+</emphasis>
+. I assume that this is 
+an error that will be fixed sometime in the future.
+
+</para>
+
+
+
+
+
+<para id="p1037">
+In this program, the 
+table 
+
+<emphasis id="strong1016" effect="bold">
+width
+
+</emphasis>
+ value must be either 0 or 1. Percent (%) values are 
+not allowed, nor are any values other than 0 or 1.
+
+</para>
+
+
+
+
+</section>
+<section id="h41001">
+<title>
+
+
+
+<emphasis id="The_table_border_attribute" effect="bold">
+
+The table "border" attribute
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1038">
+Tables in the XHTML file must have 
+
+<emphasis id="strong1017" effect="bold">
+border
+
+</emphasis>
+ attribute values of either 15 or 20. No other values are allowed in this version of the 
+program.
+
+</para>
+
+
+
+
+<para id="p1039">
+A 
+
+<emphasis id="strong1018" effect="bold">
+border
+
+</emphasis>
+ value of 15 results in a CNXML 
+
+<emphasis id="strong1019" effect="bold">
+note
+
+</emphasis>
+ object being created as shown
+by the two note objects in the 
+
+<link id="a1054" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+ 
+section.. 
+
+
+<emphasis id="em1009" effect="italics">
+(A CNXML 
+
+<emphasis id="strong1020" effect="bold">
+note
+
+</emphasis>
+ object displays as the full width of the browser window 
+regardless of the value of the 
+
+<emphasis id="strong1021" effect="bold">
+width
+
+</emphasis>
+ attribute.)
+
+</emphasis>
+</para>
+
+
+
+
+
+<para id="p1040">
+A 
+
+<emphasis id="strong1022" effect="bold">
+border
+
+</emphasis>
+ value of 20 results in a CNXML 
+
+<emphasis id="strong1023" effect="bold">
+table
+
+</emphasis>
+ object as shown in 
+
+
+<link id="a1055" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h41002">
+<title>
+<emphasis id="The_table_structure" effect="bold">
+
+
+Structure of a simple table
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1041">
+This 
+program requires that all 
+
+<emphasis id="strong1024" effect="bold">
+table
+
+</emphasis>
+ objects have the full structure shown in 
+
+
+<link id="a1056" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+ except that the footer section is optional and can be omitted.
+
+
+</para>
+
+
+
+
+
+<table id="table1001" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1001">
+
+
+
+<row id="tr1003">
+
+
+
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1.
+
+</emphasis>
+
+ Required table structure.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+
+
+
+<row id="tr1004">
+
+
+
+<entry id="td1002">
+
+
+
+
+<code id="pre1003" display="block">table border="15 or 20" width="0 or 1"
+  thead
+    tr
+      th
+        Caption text
+      /th
+    /tr
+  /thead
+  
+  tfoot - optional
+    tr
+      td
+        Footer text
+      /td
+    /tr
+  /tfoot
+
+  tbody
+    tr
+      td
+        Table content
+      /td
+    /tr
+  /tbody
+/table
+</code>
+
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1042">
+The easiest way to create such a table is probably to copy a table from the template 
+that I will provide, paste it into your WYSIWYG editor, and then edit as needed. 
+However, you should be able to create an acceptable table using only the WYSIWYG 
+features of your XHTML editor if you prefer not to use a template.
+
+</para>
+
+
+
+
+<para id="p1043">
+Although 
+footers are created at the top, they are displayed at the bottom 
+when the page is displayed in a browser.
+
+</para>
+
+
+
+
+</section>
+<section id="h41003">
+<title>
+
+
+
+<emphasis id="Structure_of_multi_column_multi_row_tables" effect="bold">
+
+Structure of multi-column, 
+multi-row tables
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+I normally place my Figures and Listings in tables having a header, one 
+column, one row, and optionally a footer. I provide an anchor and a caption in 
+the header. Therefore, since I publish a lot Figures and Listings, I use a lot of tables of the sort shown in 
+
+
+<link id="a1057" target-id="Figure_1">
+
+Figure 1
+
+</link>
+
+, 
+
+<link id="a1058" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+, and 
+
+<link id="a1059" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+
+</para>
+
+
+
+
+<para id="p1045">
+Only occasionally do I need a table with multiple columns and multiple rows. The 
+template that I will provide has examples of several different styles of 
+multi-column, multi-row tables. This is definitely a case where it is probably 
+easier to copy, paste, and edit than to start from scratch and build the table.
+
+</para>
+
+
+
+
+<para id="p1046">
+It is worth noting that if a single header or a single footer is created in a multi-column table, it 
+normally appears above or below the first column with a width that is limited by the width of the column.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h31005">
+<title>
+
+
+
+<emphasis id="Ordinary_text" effect="bold">
+
+Ordinary text
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1047">
+All ordinary text must be in a paragraph or some other suitable element such 
+as a table or a blockquote. You won't be able to upload your content to OpenStax if you create text 
+in your XHTML document that isn't properly contained. 
+
+</para>
+
+
+
+
+
+<para id="p1048">
+This is a serious problem because your validator may not catch it. In that 
+case, my translator program also won't catch it and you won't get any warning until you try to upload the CNXML file to 
+OpenStax. If that happens, you will get upload errors from OpenStax similar to the following:
+
+</para>
+
+
+
+
+
+<code id="pre1004" display="block">Please correct the following errors:
+Line 2117: error: text not allowed here
+Line 2118: error: text not allowed here
+Line 2119: error: text not allowed here
+Line 2121: error: unfinished element
+Note: Edit-In-Place cannot be used while errors persist</code>
+
+
+
+
+<para id="p1049">
+If you view the XHTML template file that I have provided in your browser, you 
+will see that the ordinary paragraph text is displayed in the color teal 
+
+<emphasis id="em1010" effect="italics">
+
+(which is sort of green)
+
+</emphasis>
+ as shown in the first and last paragraphs of
+
+
+<link id="a1060" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+. Without going into detail, 
+different kinds of content in that template are displayed in different colors.
+
+
+<emphasis id="em1011" effect="italics">
+(The color information isn't transmitted to OpenStax. OpenStax displays 
+everything in its own color scheme.)
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+
+<table id="table1002" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1002">
+
+
+
+<row id="tr1005">
+
+
+
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2.
+
+</emphasis>
+
+ Browser text colors.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1002">
+
+
+
+<row id="tr1006">
+
+
+
+<entry id="td1003">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/wysiwygfig02a.jpg" width="301" height="619"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1050">
+If you use that template and you create text that is not properly contained 
+in a suitable element, it will be displayed in black, as shown by the second 
+paragraph in 
+
+<link id="a1061" target-id="Figure_2">
+
+Figure 2
+
+</link>
+
+, when you view the XHTML 
+file in the browser. That usually makes it easy to spot and fix before it 
+creates problems later on.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+
+
+
+<emphasis id="XHTML_headers_and_CNXML_sections" effect="bold">
+
+XHTML headers and CNXML sections
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1051">
+XHTML headers such as 
+
+<emphasis id="strong1025" effect="bold">
+h1
+
+</emphasis>
+, 
+
+<emphasis id="strong1026" effect="bold">
+h2
+
+</emphasis>
+, etc., are used as delimiters when creating
+
+
+<emphasis id="strong1027" effect="bold">
+sections
+
+</emphasis>
+ in the CNXML code. CNXML sections begin and end at 
+XHTML headers such as 
+
+<emphasis id="strong1028" effect="bold">
+h1
+
+</emphasis>
+, 
+
+<emphasis id="strong1029" effect="bold">
+h2
+
+</emphasis>
+, etc.
+
+</para>
+
+
+
+
+<para id="p1052">
+XHTML headers must be nested in 
+a hierarchical 
+manner. In other words, 
+
+<emphasis id="strong1030" effect="bold">
+h2
+
+</emphasis>
+ must be 
+a child of 
+
+<emphasis id="strong1031" effect="bold">
+h1
+
+</emphasis>
+, 
+
+<emphasis id="strong1032" effect="bold">
+h3
+
+</emphasis>
+ must be a child of 
+
+<emphasis id="strong1033" effect="bold">
+h2
+
+</emphasis>
+, etc.
+
+</para>
+
+
+
+
+
+<para id="p1053">
+The hierarchical nature of this document is illustrated in the
+
+
+<link id="a1062" target-id="Table_of_contents">
+
+Table of Contents
+
+</link>
+
+. Each item in the Table of 
+Contents was a link to a header 
+
+<emphasis id="em1012" effect="italics">
+(such as 
+
+<emphasis id="strong1034" effect="bold">
+h1
+
+</emphasis>
+, 
+
+<emphasis id="strong1035" effect="bold">
+h2
+
+</emphasis>
+, 
+
+
+<emphasis id="strong1036" effect="bold">
+h3
+
+</emphasis>
+, etc.)
+
+</emphasis>
+ in the XHTML 
+document and is a link to the beginning of a section in this CNXML document.
+
+</para>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="Extraneous_entities" effect="bold">
+
+
+Extraneous entities
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1054">
+Once you have finished editing your XHTML file, it may contain one or 
+more 
+
+<link id="a1063" url="http://www.w3schools.com/html/html_entities.asp">
+
+entities
+
+</link>
+
+ that can't be handled by this 
+program. 
+
+<emphasis id="em1013" effect="italics">
+(The most common entity is the so-called non-breaking space entity 
+shown 
+
+<emphasis id="below" effect="bold">
+
+below
+
+</emphasis>
+
+.)
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+
+<code id="pre1005" display="block">&amp;nbsp;</code>
+
+
+
+
+<para id="p1055">
+Some entities 
+
+<emphasis id="em1014" effect="italics">
+(such as those shown 
+
+<link id="a1064" target-id="transformation">
+
+here
+
+</link>
+
+)
+
+</emphasis>
+ are required while others are not allowed. Any entities 
+that are not allowed will be identified by error messages when you run the 
+program. As far as I know, they all begin with an ampersand and end with a 
+semicolon as shown 
+
+<link id="a1065" target-id="below">
+
+above
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1056">
+The bad entities must be removed from the 
+XHTML file before it can be successfully processed by this program. This is one 
+place where 
+your WYSIWYG editor will fail you. Probably the best way to remove entities is to switch 
+to the code-editor window of your editor program, search out the bad entities, and 
+delete them. Just be sure not to delete any of the good 
+entities in the process.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1057">
+Free-standing images such as the one shown below are allowed by the program.
+
+</para>
+
+
+
+
+
+
+<media id="media1001" alt="missing image" display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/baldwin.jpg" width="125" height="144"/>
+</media>
+
+
+
+
+<para id="p1058">
+
+However, if like me you often need to put captions and anchors on your images, such as 
+those shown in 
+
+<link id="a1066" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+, you can put each image in a table with a 
+
+
+<emphasis id="strong1037" effect="bold">
+border
+
+</emphasis>
+ value of 20 and a
+
+<emphasis id="strong1038" effect="bold">
+ width
+
+</emphasis>
+ value of 0. Put the caption and the anchor in the table header, 
+
+
+<emphasis id="em1015" effect="italics">
+(or you could put the caption in 
+the optional footer)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+<table id="table1003" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1003">
+
+
+
+<row id="tr1007">
+
+
+
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3.
+
+</emphasis>
+
+ Image in a table.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+
+<tfoot id="tfoot1001">
+
+
+
+<row id="tr1008">
+
+
+
+<entry id="td1004">
+
+Could put a caption here.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tfoot>
+
+
+
+
+
+<tbody id="tbody1003">
+
+
+
+<row id="tr1009">
+
+
+
+<entry id="td1005">
+
+
+
+<media id="media1002" alt="Missing Image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/baldwin.jpg" width="125" height="144"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1059">
+Don't put the anchor in the footer. If you put the anchor in the header and 
+click on a link to that anchor later when viewing the page, a typical browser will scroll the page such that 
+the header will be at the top of the page. Given that, putting the anchor in the 
+footer doesn't work well for obvious reasons.
+
+</para>
+
+
+
+
+
+<para id="p1060">
+All 
+
+<emphasis id="strong1039" effect="bold">
+img
+
+</emphasis>
+ elements must be closed with the / 
+character. Some editors 
+
+<emphasis id="em1016" effect="italics">
+(including the free version of Microsoft Expression 
+Web 4 which I use)
+
+</emphasis>
+ don't do that. Therefore, it is necessary 
+for me to edit the raw XHTML code to add those / characters to the 
+
+<emphasis id="strong1040" effect="bold">
+img
+
+</emphasis>
+ 
+elements.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Validation" effect="bold">
+
+Validating your XHTML file
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+Validate your finished XHTML file as 
+
+<emphasis id="em1017" effect="italics">
+XHTML 1.0 Transitional
+
+</emphasis>
+ using any good XHTML 
+validator. The free version of Microsoft Expression Web 4 has a built-in 
+validator and it is not necessary to put a DTD declaration in your XHTML file.
+
+</para>
+
+
+
+
+
+<para id="p1062">
+
+Some validation software may require that you include a DTD declaration at the 
+top of your XHTML file in order to validate the file. If that is the case with 
+your validator, you MUST remove the DTD declaration from the XHTML file before using 
+the file as input to this program.
+
+</para>
+
+
+
+
+
+<para id="p1063">
+
+A DTD declaration normally looks something like the following, beginning with
+
+
+<emphasis id="strong1041" effect="bold">
+!DOCTYPE
+
+</emphasis>
+ and ending with 
+
+<emphasis id="strong1042" effect="bold">
+.dtd
+
+</emphasis>
+ and surrounded by angle brackets.
+
+</para>
+
+
+
+
+
+<code id="pre1006" display="block">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code>
+
+
+
+
+<para id="p1064">
+If you don't want to physically remove it from your XHTML file, you can temporarily 
+disable it by 
+turning it into a comment as shown below:
+
+</para>
+
+
+
+
+
+<code id="pre1007" display="block">&lt;!--
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+--&gt;</code>
+
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+
+
+
+<emphasis id="Dont_use_XHTML_break_tags" effect="bold">
+
+Don't use XHTML break tags
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1065">
+Break tags are used in XHTML to create a series of lines of text with no 
+space in between. An XHTML break tag looks like this:
+
+</para>
+
+
+
+
+
+
+<code id="pre1008" display="block">&lt;br/&gt;</code>
+
+
+
+
+
+<para id="p1066">
+To my knowledge, there is no CNXML tag that maps into an XHTML break tag. 
+Therefore, there must not be any XHTML break tags in the temporary output file 
+produced by an object of the class named 
+
+<emphasis id="strong1043" effect="bold">
+CNXMLFirstPass12
+
+</emphasis>
+. The behavior of an 
+object of that class is to replace all XHTML break tags with XHTML paragraph tags. 
+Although this works in some cases, it can also cause "well formed" errors 
+later downstream in other cases.
+
+</para>
+
+
+
+
+<para id="p1067">
+The best approach is to manually remove all XHTML break tags from 
+your finished XHTML file before processing it with this program. In other words, DON'T USE 
+XHTML break tags in your 
+XHTML file unless it is absolutely necessary.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+
+
+
+<emphasis id="CNXML_editing_is_not_required" effect="bold">
+
+CNXML editing is not required
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1068">
+It should not be necessary for you to manually edit the CNXML file produced by this program either before or after uploading it to 
+OpenStax. If there are problems with the upload of the CNXML file, or problems 
+with the published result, it should be possible for you to make any 
+necessary corrections at the XHTML level. Then re-run this program to create a new 
+CNXML file for uploading. I have been doing that since 2009 and with more than 
+770 books and pages published on OpenStax, I have never found it necessary to 
+edit CNXML code.
+
+</para>
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+
+
+
+<emphasis id="No_CNXML_Figure_objects_or_CNXML_Listing_objects" effect="bold">
+
+No CNXML figure objects or 
+CNXML listing objects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1069">
+Early versions of this program supported CNXML 
+
+<emphasis id="strong1044" effect="bold">
+figure
+
+</emphasis>
+ objects and CNXML 
+
+
+<emphasis id="strong1045" effect="bold">
+listing
+
+</emphasis>
+ objects. Although those objects sound good in theory, I 
+have encountered significant display problems with objects of those types, 
+particularly when the site moved from the Legacy presentation format to the 
+OpenStax presentation format. As a result of those problems, I had to go back 
+and remove those objects from most of my pages. Following that, I updated the 
+program to disallow the creation of CNXML code for 
+
+<emphasis id="strong1046" effect="bold">
+figure
+
+</emphasis>
+ 
+objects or 
+
+<emphasis id="strong1047" effect="bold">
+listing
+
+</emphasis>
+ objects.
+
+</para>
+
+
+
+
+<para id="p1070">
+My approach, which 
+works very well for me, is to put figures and listings into CNXML 
+
+<emphasis id="strong1048" effect="bold">
+table
+
+</emphasis>
+ objects and to 
+distinguish between 
+figures and listings in the captions, which I place in the table header. 
+
+<emphasis id="em1018" effect="italics">
+
+(See 
+
+<link id="a1067" target-id="Figure_3">
+
+Figure 3
+
+</link>
+
+ and 
+
+<link id="a1068" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ for 
+example.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1071">
+This section explains how to run the program and how to publish your CNXML 
+content on OpenStax.
+
+</para>
+
+
+
+
+
+<section id="h21006">
+<title>
+<emphasis id="Running_the_program" effect="bold">
+
+Running the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1072">
+This program requires access to the following 
+three compiled Java class files plus a valid XHTML 
+file for input
+
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1046">
+CNXMLprep12.class
+
+</item>
+
+
+	
+
+<item id="li1047">
+CNXMLFirstPass12.class
+
+</item>
+
+
+	
+
+<item id="li1048">
+CNXMLSecondPass12.class
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1073">
+Click 
+
+<link id="a1069" url="CNXMLprep12.zip">
+
+here
+
+</link>
+
+ to download a zip file named 
+
+<emphasis id="strong1049" effect="bold">
+
+CNXMLprep12.zip
+
+</emphasis>
+ 
+containing those three class files. Click 
+
+<link id="a1070" url="CNXMLtemplate01.zip">
+
+here
+
+</link>
+
+ 
+to download a zip file named 
+
+<emphasis id="strong1050" effect="bold">
+CNXMLtemplate01.zip
+
+</emphasis>
+ containing a valid XHTML template file named 
+
+<emphasis id="strong1051" effect="bold">
+
+CNXMLtemplate01.htm
+
+</emphasis>
+ that illustrates many of the capabilities of this 
+program. The zip file also contains several image files associated with the template file.
+
+</para>
+
+
+
+
+
+<para id="p1074">
+To run this program in general, extract the contents of the zip file named 
+
+<emphasis id="strong1052" effect="bold">
+
+CNXMLprep12.zip
+
+</emphasis>
+ into an empty folder, copy your validated XHTML 
+file into that folder, and execute the following command at the command prompt in 
+that folder:
+
+</para>
+
+
+
+
+
+<code id="pre1009" display="block">java CNXMLprep12 InputFile OutputFile</code>
+
+
+
+
+<para id="p1075">
+where 
+
+<emphasis id="strong1053" effect="bold">
+InputFile
+
+</emphasis>
+ is the name of your validated XHTML file and
+
+
+<emphasis id="strong1054" effect="bold">
+OutputFile
+
+</emphasis>
+ is the name of the CNXML file that the program will 
+produce.
+
+</para>
+
+
+
+
+
+<para id="p1076">
+This program was developed using the 
+
+
+<link id="a1071" url="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">
+
+Java SE Development Kit 8
+
+</link>
+
+. 
+In order to run this program on your computer, you must have the 
+
+
+<link id="a1072" url="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">
+
+Java 
+SE Runtime Environment 8 (JRE)
+
+</link>
+
+ or a later version of the JRE installed on your 
+computer. The JRE is already installed on many computers and it may already be 
+installed on yours
+
+<emphasis id="em1019" effect="italics">
+ (but it may be an 
+earlier version that requires updating)
+
+</emphasis>
+. If it is not installed, or it is 
+not up to date, there are many web pages that provide instructions 
+for downloading and installing Java. One of those web pages is located
+
+
+<link id="a1073" url="http://www.oracle.com/technetwork/java/javase/downloads/index.html">
+
+
+here
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<para id="p1077">
+To run this program with the template file named 
+
+<emphasis id="strong1055" effect="bold">
+
+CNXMLtemplate01.htm
+
+</emphasis>
+, extract the contents of 
+both zip files into an empty folder.
+Then execute the following command at the 
+command prompt in that folder:
+
+
+</para>
+
+
+
+
+
+<code id="pre1010" display="block">java CNXMLprep12 CNXMLtemplate01.htm CNXMLtemplate01.cnxml</code>
+
+
+
+
+<para id="p1078">
+Two new files should appear in the folder:
+
+
+</para>
+
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1049">
+CNXMLtemp12.html 
+
+</item>
+
+
+	
+
+<item id="li1050">
+CNXMLtemplate01.cnxml 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1079">
+You can ignore the temp file. It is of no 
+further use.
+
+
+</para>
+
+
+
+
+
+<para id="p1080">
+The file named
+
+<emphasis id="strong1056" effect="bold">
+ CNXMLtemplate01.cnxml
+
+</emphasis>
+ is the output CNXML file 
+produced by the program.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="Upload_the_page_to_OpenStax" effect="bold">
+
+Upload and publish your new page
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1081">
+Here is an abbreviated description of the steps for uploading and publishing 
+your new page. If you need more detailed instructions, see 
+
+
+<link id="a1074" url="http://cnx.org/contents/sbe4y4Pz:5fF2eBev">
+
+Step-by-Step Guide to OpenStax Publishing
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<para id="p1082">
+1. Click 
+
+<link id="a1075" url="https://legacy.cnx.org/login_form?came_from=mydashboard">
+
+here
+
+</link>
+
+ 
+to create an OpenStax account and sign in to your new account. 
+
+<emphasis id="em1020" effect="italics">
+(See
+
+
+<link id="a1076" target-id="Helpful_information_regarding_OpenStax_authoring">
+
+helpful hints
+
+</link>
+
+ 
+below)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1083">
+2. Create a new 
+
+
+<emphasis id="strong1057" effect="bold">
+workgroup
+
+</emphasis>
+ or use the workgroup 
+named 
+
+<emphasis id="strong1058" effect="bold">
+Personal Workspace
+
+</emphasis>
+ to create a new 
+
+<emphasis id="strong1059" effect="bold">
+module
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+<quote id="blockquote1002" display="block">
+
+	
+
+<emphasis id="Historical_context" effect="bold">
+
+
+<emphasis id="strong1060" effect="bold">
+Historical context
+
+</emphasis>
+</emphasis>
+
+:
+	In the days when the website was known as 
+
+<emphasis id="strong1061" effect="bold">
+Connexions
+
+</emphasis>
+, 
+	before it became known as 
+
+<emphasis id="strong1062" effect="bold">
+OpenStax
+
+</emphasis>
+, individual CNXML files 
+	were known as 
+
+<emphasis id="strong1063" effect="bold">
+Modules
+
+</emphasis>
+ and a collection of such files was 
+	known as a 
+
+<emphasis id="strong1064" effect="bold">
+Collection
+
+</emphasis>
+. With the advent of the 
+
+<emphasis id="strong1065" effect="bold">
+
+	OpenStax
+
+</emphasis>
+ name, individual CNXML files became known as 
+
+<emphasis id="strong1066" effect="bold">
+Pages
+
+</emphasis>
+, 
+	and collections of such files became known as 
+
+<emphasis id="strong1067" effect="bold">
+Books
+
+</emphasis>
+. 
+	Much of the old terminology still appears on the website, 
+	particularly in those areas of the site associated with creating and publishing 
+	content. Therefore, you will be creating a 
+
+<emphasis id="strong1068" effect="bold">
+Module
+
+</emphasis>
+, which 
+	will be known as a 
+
+<emphasis id="strong1069" effect="bold">
+Page
+
+</emphasis>
+ once it is published and viewed in 
+	the 
+
+<emphasis id="strong1070" effect="bold">
+OpenStax
+
+</emphasis>
+ format. However, if you view it in the 
+
+<emphasis id="strong1071" effect="bold">
+
+	Legacy
+
+</emphasis>
+ format 
+
+<emphasis id="em1021" effect="italics">
+(link on the upper-right corner of the 
+
+<emphasis id="strong1072" effect="bold">
+
+	Page
+
+</emphasis>
+ screen)
+
+</emphasis>
+, it will still be known as a 
+
+<emphasis id="strong1073" effect="bold">
+Module
+
+</emphasis>
+.
+
+</quote>
+
+
+
+
+<para id="p1084">
+3. Enter the Metadata for the new module 
+
+<emphasis id="em1022" effect="italics">
+(title,
+keywords, summary, etc.)
+
+</emphasis>
+
+
+
+</para>
+
+
+
+
+<para id="p1085">
+4. Upload the file named 
+
+<emphasis id="strong1074" effect="bold">
+CNXMLtemplate01.cnxml
+
+</emphasis>
+
+to OpenStax as type 
+
+<emphasis id="strong1075" effect="bold">
+<emphasis id="em1023" effect="italics">
+Plain CNXML
+
+</emphasis>
+</emphasis>
+.
+
+
+</para>
+
+
+
+
+<para id="p1086">
+5. Put the five image files that you downloaded earlier 
+
+<emphasis id="em1024" effect="italics">
+(
+
+<emphasis id="strong1076" effect="bold">
+0135ex02.jpg
+
+</emphasis>
+ 
+through 
+
+<emphasis id="strong1077" effect="bold">
+0135ex06.jpg
+
+</emphasis>
+)
+
+</emphasis>
+ in a zip file and upload it to OpenStax 
+as type 
+
+<emphasis id="strong1078" effect="bold">
+<emphasis id="em1025" effect="italics">
+Zip File
+
+</emphasis>
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+<quote id="blockquote1003" display="block">
+<emphasis id="strong1079" effect="bold">
+Important Note
+
+</emphasis>
+: The XHTML code must be written so as to access image 
+	files and other resource files from within the same folder as the validated 
+	XHTML file.
+References to resource files in other folders
+are not allowed in the XHTML code.
+
+
+</quote>
+
+
+
+
+<para id="p1087">
+6. Finally, follow the OpenStax instructions to publish
+your new content.
+
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Helpful_information_regarding_OpenStax_authoring" effect="bold">
+
+Helpful hints 
+regarding OpenStax authoring
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1088">
+Once you have signed in to OpenStax, go to
+
+
+<link id="a1077" url="https://legacy.cnx.org/help/authoring/">
+
+Authoring Content
+
+</link>
+
+. That 
+page provides links to several other pages containing helpful hints regarding 
+the authoring of content on OpenStax. The page titled
+
+
+<link id="a1078" url="https://legacy.cnx.org/help/authoring/createmodule">
+
+Create a Module
+
+</link>
+
+ 
+might be particularly helpful in describing the steps involved in creating and 
+publishing a module. Just remember, that you already have the CNXML code for 
+your module. You simply need to
+
+
+<link id="a1079" url="https://legacy.cnx.org/help/authoring/import-export#importmodule">
+
+
+import
+
+</link>
+
+ and publish the module. 
+
+<emphasis id="em1026" effect="italics">
+(You will be importing CNXML instead of 
+Microsoft Word.) 
+
+</emphasis>
+</para>
+
+
+
+
+
+<para id="p1089">
+You will also find links to other useful authoring pages on your
+
+
+<link id="a1080" url="https://legacy.cnx.org/mycnx">
+
+MyCnx
+
+</link>
+
+ page.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="The_utf8_character_set" effect="bold">
+
+The utf8 character set
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1090">
+The XHTML input file must be coded as 
+
+
+<emphasis id="strong1080" effect="bold">
+charset=utf8
+
+</emphasis>
+. Be careful with this requirement because some XHTML editors 
+create text using other character sets. The safest approach is to start with my 
+XHTML
+template file that contains a 
+
+<emphasis id="strong1081" effect="bold">
+meta
+
+</emphasis>
+ line in the 
+
+
+<emphasis id="strong1082" effect="bold">
+head
+
+</emphasis>
+ section that looks something like the
+following:
+
+
+</para>
+
+
+
+
+
+
+<code id="pre1011" display="block">&lt;...charset=utf-8...&gt;</code>
+
+
+
+
+
+
+
+<para id="p1091">
+Then edit that template file to meet the needs of your page.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Why_not_create_and_upload_MS_Word_documents_to_OpenStax" effect="bold">
+
+Why not 
+create and upload Microsoft Word documents to OpenStax
+
+</emphasis>
+
+?
+
+</title>
+
+
+
+
+<para id="p1092">
+The OpenStax documentation indicates that the following file types can be 
+imported:
+
+</para>
+
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1051">
+Microsoft Word
+
+</item>
+
+
+	
+
+<item id="li1052">
+OpenOffice Writer
+
+</item>
+
+
+	
+
+<item id="li1053">
+LaTex
+
+</item>
+
+
+	
+
+<item id="li1054">
+Plain CNXML
+
+</item>
+
+
+	
+
+<item id="li1055">
+Zip File
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1093">
+<emphasis id="em1027" effect="italics">
+(If you use my XHTML-to-CNXML translator, you will be importing "Plain CNXML" 
+and "Zip File" into OpenStax.)
+
+</emphasis>
+</para>
+
+
+
+
+
+<para id="p1094">
+Now for the primary question posed by this section -- to begin with, when you select Microsoft Word as the import type, you are 
+immediately confronted with the following disclaimer: 
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1002" type="">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<para id="p1095">
+Word documents can be extremely varied. We have attempted to handle many common cases, with the goal of extracting the text from your document so that 
+
+
+<emphasis id="strong1083" effect="bold">
+<emphasis id="em1028" effect="italics">
+you can mark it up in CNXML
+
+</emphasis>
+</emphasis>
+ without 
+
+having to retype the content. Some cautions:
+
+    
+
+</para>
+
+
+
+				
+
+<list id="ul1014" list-type="bulleted">
+
+					
+
+<item id="li1056">
+Images: Many images will be imported without trouble. Images contained in figures or tables, created directly in Word, or embedded in the document through links may not work correctly.
+    				
+
+</item>
+
+
+					
+
+<item id="li1057">
+Styling Tips: If you use CNXML-specific styles from the Word template to create your Word document, you will get much more faithful conversion for elements like terms, citations, code, 
+
+and others. See the styling information in our full instructions, below.
+    
+
+</item>
+
+
+					
+
+<item id="li1058">
+Use Headings to Get Sections: Even without CNXML-specific styling, you can make sure that your section organization is preserved during import by using the standard header styles 
+
+(Heading 1, Heading 2, etc.) in your original document.
+    
+
+</item>
+
+
+					
+
+<item id="li1059">
+
+					
+
+<link id="a1081" url="https://legacy.cnx.org/help/authoring/wordimporter">
+
+Full instructions
+
+</link>
+
+ on using Word with OpenStax-CNX
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+
+
+	
+
+
+<para id="p1096">
+That is hardly a confidence builder. If you follow the link to the 
+					
+
+<link id="a1082" url="https://legacy.cnx.org/help/authoring/wordimporter">
+
+Full instructions
+
+</link>
+
+, you will find the following 
+at the beginning of the page.
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1003" type="">
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<para id="p1097">
+<emphasis id="strong1084" effect="bold">
+Overview
+
+</emphasis>
+
+
+
+
+</para>
+
+
+
+				
+
+<para id="p1098">
+One of the easiest paths for populating a module is the Word/OOo importer, which converts a *.doc document to CNXML. The importer overwrites any existing CNXML, so it is most useful as an 
+
+				
+
+<emphasis id="strong1085" effect="bold">
+<emphasis id="em1029" effect="italics">
+initial import. We suggest using the online Edit-in-Place feature to make any further edits
+
+</emphasis>
+</emphasis>
+; any re-import of a Word or OpenOffice document will erase any other changes you have made using 
+
+Edit-in-Place or the Full Source Editor.
+
+</para>
+
+
+
+				
+
+<para id="p1099">
+ 
+
+<emphasis id="strong1086" effect="bold">
+Who should use the Word/OOo importer? 
+
+</emphasis>
+</para>
+
+
+
+				
+
+<para id="p1100">
+ You should use the Word/OOo importer if you already have a Word or OpenOffice document saved that you wish to publish to the repository...
+
+</para>
+
+
+
+				
+
+</note>
+
+
+
+	
+
+
+<para id="p1101">
+It would appear from the above that the primary purpose of the Word importer 
+is to provide a "starting point" CNXML document to be further edited online in 
+CNXML code. 
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1004" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="em1030" effect="italics">
+(In contrast, if you create your document in WYSIWYG XHTML and use my 
+XHTML-to-CNXML translator to prepare it for upload to OpenStax as type Plain 
+CNXML, you never have to touch or even think about CNXML code. You can handle 
+				creation as well as ongoing maintenance at the WYSIWYG XHTML 
+				level.)
+
+</emphasis>
+</note>
+
+
+
+	
+
+
+<para id="p1102">
+<emphasis id="strong1087" effect="bold">
+Actual results
+
+</emphasis>
+: I opened this XHTML file in Microsoft Word and then saved the file 
+both as a 
+
+<emphasis id="strong1088" effect="bold">
+doc
+
+</emphasis>
+ file and a 
+
+<emphasis id="strong1089" effect="bold">
+docx
+
+</emphasis>
+ file. Then I 
+tried to import both of those files into OpenStax as type Microsoft Word. In 
+both cases, I received an error message that read "
+
+<emphasis id="strong1090" effect="bold">
+Could not import 
+file. Could not convert file
+
+</emphasis>
+."
+
+</para>
+
+
+
+
+
+<para id="p1103">
+There was no indication as to the cause of the problem nor was there any 
+suggestion as to how to resolve the problem. Therefore, in my case, trying to 
+import a Microsoft Word document into OpenStax has proven to be a dead end 
+street.
+
+</para>
+
+
+
+
+
+<para id="p1104">
+That is my reason for not creating and uploading Microsoft Word documents to 
+OpenStax?"
+
+</para>
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1105">
+If you can create a valid XHTML file using a WYSIWYG editor such as the free version of Microsoft Expression Web 4, you can easily create and publish content on OpenStax using 
+my free XHTML-to-CNXML translator program.
+
+This page explains how to use my translator program to create and publish your first page on OpenStax.
+
+</para>
+
+
+
+
+
+	
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1106">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1005" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1091" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1015" list-type="bulleted">
+
+					
+
+<item id="li1060">
+Module name: Wysiwyg0100 Getting Started
+
+</item>
+
+
+					
+
+<item id="li1061">
+File: Wysiwyg0100.htm
+
+</item>
+
+
+					
+
+<item id="li1062">
+Published: 03/18/16
+
+</item>
+
+
+
+
+				
+
+</list>
+
+
+
+				
+
+</note>
+
+
+
+
+
+	
+
+<note id="note1006" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1092" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1107">
+<emphasis id="strong1093" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+
+				
+
+<para id="p1108">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+
+				
+
+<para id="p1109">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+
+				
+
+<para id="p1110">
+<emphasis id="strong1094" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+
+
+</note>
+
+
+
+	
+
+
+<para id="p1111">
+-end- 
+
+</para>
+
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

@@ -1,0 +1,136 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Hosting PDF on OpenStax</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60392</md:content-id>
+  <md:title>Hosting PDF on OpenStax</md:title>
+  <md:abstract>This page describes a process by which you can easily host your PDF content on OpenStax.</md:abstract>
+  <md:uuid>4e7a0a66-8979-462c-94b0-c06a900c4b98</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+
+
+<para id="p1000">
+Revised: Thu Mar 24 15:10:14 CDT 2016
+
+</para>
+
+
+
+
+<note id="note1000" type="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1001">
+This page is part of a Book titled 
+
+
+<link id="a1000" url="http://cnx.org/contents/sbe4y4Pz:jwJWiTyV">
+
+OpenStax Publishing with a WYSIWYG Editor.
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+
+</note>
+
+
+
+
+
+
+</quote>
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1002">
+This page is designed specifically to host a PDF file.
+
+</para>
+
+
+
+
+
+<para id="p1003">
+<link id="a1001" url="MyFile.pdf">
+
+Click here to view the PDF file
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<para id="p1004">
+<link id="a1002" url="template.zip">
+
+Click here to download a zip file named template.zip.
+
+</link>
+
+
+</para>
+
+
+
+
+
+<para id="p1005">
+-end- 
+
+</para>
+
+
+
+
+
+
+
+</content>
+
+
+
+
+</document>
